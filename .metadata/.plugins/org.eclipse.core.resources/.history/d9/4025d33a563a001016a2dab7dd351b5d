@@ -1,0 +1,43 @@
+package application.util;
+
+public class GameManager {
+
+    // === Param�tres de configuration ===
+    private static int nbJoueur = 0;
+    private static boolean isTimedMode = false;
+    private static int timeLimitSeconds = 0;
+
+    private static String deckName = null;
+
+    // === Etat de la partie ===
+    private static int currentPlayer = 1;
+    private static boolean gameStarted = false;
+
+    // === Accesseurs ===
+    public static int getNbJoueur() { return nbJoueur; }
+    public static void setNbJoueur(int nb) { nbJoueur = nb; }
+
+    public static boolean isTimedMode() { return isTimedMode; }
+    public static void setTimedMode(boolean timedMode) { isTimedMode = timedMode; }
+
+    public static int getTimeLimitSeconds() { return timeLimitSeconds; }
+    public static void setTimeLimitSeconds(int seconds) { timeLimitSeconds = seconds; }
+
+    public static String getDeckName() { return deckName; }
+    public static void setDeckName(String name) { deckName = name; }
+
+    public static int getCurrentPlayer() { return currentPlayer; }
+    public static void setCurrentPlayer(int player) { currentPlayer = player; }
+
+    public static boolean isGameStarted() { return gameStarted; }
+    public static void setGameStarted(boolean started) { gameStarted = started; }
+
+    public static void reset() {
+    	nbJoueur = 0;
+        isTimedMode = false;
+        timeLimitSeconds = 0;
+        deckName = null;
+        currentPlayer = 1;
+        gameStarted = false;
+    }
+}

@@ -1,0 +1,51 @@
+package application.controller;
+
+import application.Main;
+import application.model.Card;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextField;
+
+public class ControllerFaireDeck {
+
+    @FXML private Label Label_nbCard;
+    @FXML private ScrollPane ScrollPane_Card;
+    @FXML private TextField TextField_DeckName;
+    @FXML private TextField TextField_ImageLink;
+
+    public void initialisation() {
+    	/* TODO 
+    	 * on charge toutes les cartes dans ScrollPane_Card et ajoute la possibilite de rajouter une carte
+    	 * boutons transparent et carte au dessus ?
+    	 */
+    }
+    
+    public void ajouterCarte(Card carte) {
+    	/* TODO
+    	 * on ajoute une carte si elle a été créer
+    	 */
+    }
+    
+    @FXML
+    void Confirm(ActionEvent event) {
+    	// on créer / modifie le fichier .json puis on quitte
+    	write();
+    	Main.switchScene("selectionDeck.fxml", "Sélectionner un Deck");
+    }
+
+	@FXML
+    void Return(ActionEvent event) {
+    	// on quitte sans sauvegarder
+    	Main.switchScene("selectionDeck.fxml", "Sélectionner un Deck");
+    }
+	
+	private void write() {
+		/* TODO 
+		 * écrire dans le fichier .json
+		 * le nom sera probablement la date et heure de creation du .json
+		 */
+	}
+
+}

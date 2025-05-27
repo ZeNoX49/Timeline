@@ -1,0 +1,107 @@
+package recup;
+
+import application.model.MainGame;
+
+import java.io.IOException;
+
+import application.model.Card;
+import javafx.application.Platform;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+
+
+public class ControllerPlateau1Joueur {
+
+	    private MainGame game;
+
+	    @FXML
+	    private Button btnRetour;
+	    
+	    @FXML
+	    private Button btnSave;
+	    
+	    @FXML
+	    private Button btnGauche;
+
+	    @FXML
+	    private Button btnDroite;
+
+	    @FXML
+	    private Label scoreLabel;
+
+	    @FXML
+	    private Label scoreLabel1;
+
+	    @FXML
+	    private Label playerName;
+
+	    @FXML
+	    private Label remainingCards;
+
+	    @FXML
+	    private Label remainingCards1;
+
+	    @FXML
+	    private HBox HBoxMainJ1;
+
+	    @FXML
+	    private Label piocheCarteLabel;
+
+	    @FXML
+	    private Label piocheCarteLabel1;
+
+	    @FXML
+	    private Pane PanePioche;
+
+	    @FXML
+	    public void initialize() {
+	        game = new MainGame();
+
+	        updateUI();
+
+	        btnRetour.setOnAction(event -> onRetour());
+	        btnSave.setOnAction(event -> onSave());
+	        btnGauche.setOnAction(event -> onGauche());
+	        btnDroite.setOnAction(event -> onDroite());
+	    }
+
+	    private void updateUI() {
+	        HBoxMainJ1.getChildren().clear(); 
+
+	        for (Card card : game.getPlayer1().getHand().getCards()) {
+	            try {
+	                FXMLLoader loader = new FXMLLoader(getClass().getResource("../views/carte.fxml"));
+	                Pane cardPane = loader.load();
+	                CardController cardController = loader.getController();
+	                cardController.setCard(card);
+	                HBoxMainJ1.getChildren().add(cardPane); 
+	            } catch (IOException e) {
+	                e.printStackTrace();
+	            }
+	        }
+	    }
+
+
+	    private void onRetour() {
+	        System.out.println("Retour");
+	        Platform.exit();
+	    }
+
+	    private void onSave() {
+	        System.out.println("Sauvegarde");
+	    }
+
+	    private void onGauche() {
+	        System.out.println("Gauche");
+	    }
+
+	    private void onDroite() {
+	        System.out.println("Droite");
+	    }
+	}
+
+

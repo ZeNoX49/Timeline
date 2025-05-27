@@ -1,0 +1,20 @@
+package application.controller;
+
+import application.model.Card;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+
+public class ControllerCarte {
+	
+    @FXML private ImageView imageView;
+    @FXML private Label nomLabel;
+    @FXML private Label dateLabel;
+
+    public void setCard(Card card) {
+        nomLabel.setText(card.getTitle());
+        dateLabel.setText(card.getDate());
+        imageView.setImage(new Image(card.getUrlImage()));
+    }
+}

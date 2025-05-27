@@ -1,0 +1,17 @@
+package application.io;
+
+import application.model.Carte;
+
+
+public class FAKECardLoader extends CardLoader {
+
+	@Override
+	public void load() {
+		setTitle("Fake data");
+		addCard(new Carte("Vodka\nPoliakov", "1950", 1, "https://media.carrefour.fr/medias/b2d131805d3c496da5ee70f3753d190f/p_1500x1500/03147699102671_C1N1_s11.png"));
+		addCard(new Carte("Old Nick", "1970", 2, "https://media.carrefour.fr/medias/a8c5965f51d84550a68890a575869385/p_1500x1500/03012991302039_H1N1_s27.png"));
+		addCard(new Carte("Jägermeister", "1980", 3, "https://produits.bienmanger.com/29177-0w470h470_Liqueur_Jagermeister.jpg"));
+		addCard(new Carte("Get27", "1990", 4, "https://media.carrefour.fr/medias/b244fcffd73d496faa162234d348acd8/p_1500x1500/07610113019245_A1N1_s32.jpeg"));
+	}
+
+}

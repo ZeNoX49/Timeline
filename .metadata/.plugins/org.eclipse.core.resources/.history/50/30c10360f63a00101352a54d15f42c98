@@ -1,0 +1,10 @@
+package application.pojo;
+
+public class DeckPOJO {
+
+	public String fileName;
+    public String name;
+    public String url;
+    public CardPOJO[] cards;
+
+}

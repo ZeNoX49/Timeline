@@ -1,0 +1,17 @@
+package application.controller;
+
+import recup.CardViewOnHand;
+
+public class CardOnHandController {
+
+	public void initView() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setView(CardViewOnHand cardViewOnHand) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
