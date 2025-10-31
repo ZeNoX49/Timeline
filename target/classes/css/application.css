@@ -1,0 +1,70 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../font/Poppins-Regular.ttf');
+}
+
+.button1 {
+    -fx-background-color: #d07a00;
+    -fx-text-fill: #ffd36a;
+    -fx-font-size: 40px;
+    -fx-font-family: 'Poppins ExtraLight', sans-serif;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.button2 {
+    -fx-background-color: #d07a00;
+    -fx-text-fill: #ffd36a;
+    -fx-font-size: 24px;
+    -fx-font-family: 'Poppins ExtraLight', sans-serif;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #e68f1e;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}
+
+.button:pressed {
+    -fx-background-color: #a85f00;
+}
+
+.button-active {
+    -fx-background-color: #803b00;
+    -fx-text-fill: #e0b347;
+}
+
+.background {
+    -fx-background-color: #262538;
+}
+
+.buttonhorloge{
+    -fx-background-color: #D4A96C;
+        -fx-text-fill: black;
+        -fx-font-size: 20px;
+        -fx-background-radius: 5;
+        -fx-border-radius : 20;
+        -fx-background-radius : 20;
+}
+
+.buttonnouvelle{
+-fx-background-color: #D9D9D9;
+        -fx-text-fill: black;
+        -fx-font-size: 20px;
+        -fx-background-radius: 20;
+        -fx-border-radius : 20;
+}
+
+.scroll-pane {
+    -fx-background-color: #262538;
+    -fx-border-color: #d07a00;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+}
+
+.buttonnouvelle:hover {
+    -fx-background-color: #e68f1e;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}

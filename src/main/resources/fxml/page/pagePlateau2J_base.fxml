@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPagePlateau2J">
+   <children>
+      <Button layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#QuitGame" prefHeight="50.0" prefWidth="75.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/retour.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <HBox alignment="CENTER" spacing="10" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="20">
+         <children>
+            <Button onAction="#QuitGame" prefHeight="48.0" prefWidth="147.0" styleClass="buttonRetour" text="Retour" />
+            <Region prefHeight="95.0" prefWidth="376.0" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" prefHeight="146.0" prefWidth="598.0">
+               <children>
+                  <VBox prefHeight="146.0" prefWidth="262.0">
+                     <children>
+                        <Label prefHeight="73.0" prefWidth="317.0" styleClass="title7" text="Score J1: " textFill="WHITE" />
+                        <Label styleClass="title7" text="Score J2: " textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="146.0" prefWidth="55.0">
+                     <children>
+                        <Label fx:id="scoreLabel1" prefHeight="86.0" prefWidth="57.0" styleClass="infoNombre" text="00" textFill="WHITE" />
+                        <Label fx:id="scoreLabel2" prefHeight="61.0" prefWidth="54.0" styleClass="infoNombre" text="00" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="42.0" layoutY="174.0" prefHeight="242.0" prefWidth="1358.0" stylesheets="@../../css/application.css" vbarPolicy="NEVER">
+         <content>
+            <HBox fx:id="hBoxTimeline" alignment="CENTER" prefHeight="237.0" prefWidth="1355.0" spacing="20" style="-fx-background-color: #262538;" />
+         </content>
+      </ScrollPane>
+      <VBox alignment="CENTER" layoutX="488.0" layoutY="571.0" prefHeight="398.0" prefWidth="921.0" spacing="5" AnchorPane.leftAnchor="488.0" AnchorPane.rightAnchor="35.0">
+         <children>
+            <Label fx:id="playerName" styleClass="title3" text="Nom Joueur" textFill="white" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label styleClass="title3" text="Cartes restantes : " textFill="white" />
+                  <Label fx:id="remainingCards" prefHeight="1.0" prefWidth="41.0" styleClass="infoNombre" text="00" textFill="white" />
+               </children>
+            </HBox>
+            <HBox fx:id="HBoxMainJ1" prefHeight="201.0" prefWidth="809.0" style="-fx-spacing: 30;" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="10.0" layoutY="567.0" prefHeight="367.0" prefWidth="374.0">
+         <children>
+            <Label styleClass="title3" text="Pioche" textFill="white" />
+            <HBox alignment="CENTER" prefHeight="118.0" prefWidth="321.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="51.0" prefWidth="310.0" styleClass="title4" text="Carte restante :" textFill="white" />
+                  <Label fx:id="piocheCarteLabel" alignment="CENTER" prefHeight="88.0" prefWidth="127.0" styleClass="infoNombre" text="00" textFill="white" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

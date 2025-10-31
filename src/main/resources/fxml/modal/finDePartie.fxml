@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="431.0" prefWidth="643.0" style="-fx-padding: 20;" styleClass="background" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.modal.ControllerModalFinDePartie">
+
+    <center>
+        <VBox alignment="CENTER" prefHeight="470.0" prefWidth="643.0" spacing="30.0" style="-fx-padding: -20;" BorderPane.alignment="CENTER">
+            <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="nomWin" alignment="CENTER" contentDisplay="CENTER" prefHeight="84.0" prefWidth="645.0" styleClass="title3" text="Bravo" textAlignment="CENTER" wrapText="true" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                      <Label fx:id="scoreWin" alignment="CENTER" contentDisplay="CENTER" prefHeight="84.0" prefWidth="1246.0" styleClass="title3" text="Votre score : " textAlignment="CENTER" wrapText="true" />
+               </children>
+            </HBox>
+                
+                <HBox alignment="CENTER" prefHeight="0.0" prefWidth="603.0" spacing="40.0" style="-fx-spacing: 100;">
+                    <children>
+                        <Button onAction="#onConfirmQuit" prefHeight="106.0" prefWidth="304.0" styleClass="button1" text="Quitter" />
+                    </children>
+               <VBox.margin>
+                  <Insets bottom="60.0" top="10.0" />
+               </VBox.margin>
+                </HBox>
+            </children>
+            <padding>
+                <Insets top="40.0" />
+            </padding>
+        </VBox>
+    </center>
+</BorderPane>

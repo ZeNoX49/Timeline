@@ -1,0 +1,179 @@
+.button1 {
+    -fx-background-color: linear-gradient(to bottom, #ffa733, #d07a00);
+    -fx-text-fill: #fff3d1;
+    -fx-font-family: 'Poppins';
+    -fx-font-size: 60px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 4, 0, 0, 2);
+    -fx-border-color: #9e5e00;
+    -fx-border-radius: 12;
+}
+.button2 {
+    -fx-background-color: linear-gradient(to bottom, #ffe49e, #ffc470);
+    -fx-text-fill: #c36504;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 3, 0, 0, 2);
+    -fx-border-color: #d07a00;
+    -fx-border-radius: 12;
+}
+
+.button1:hover, .button2:hover {
+    -fx-background-color: #f7c650;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6, 0.3, 0, 2);
+}
+
+.button1:pressed, .button2:pressed {
+    -fx-background-color: #a85f00;
+}
+
+.button-active {
+    -fx-text-fill: #803b00;
+	-fx-background-color: linear-gradient(to bottom, #ffe49e, #d39a4a);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, #fff8e199, 24, 0.7, 0, 5);
+    -fx-border-color: #fff8e1;
+    -fx-border-width: 3px;
+    -fx-border-radius: 14;
+    -fx-background-radius: 14;
+    -fx-font-size: 65px;
+}
+.button-with-shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0.2, 2, 2);
+}
+
+.buttonRetour {
+    -fx-background-color: linear-gradient(to bottom, #ffa733, #d07a00);
+    -fx-text-fill: #fff3d1;
+    -fx-font-family: 'Poppins';
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 4, 0, 0, 2);
+    -fx-border-color: #9e5e00;
+    -fx-border-radius: 12;
+}
+
+
+.background {
+    -fx-background-color: linear-gradient(to bottom, #2d2b3f, #262538);
+}
+
+
+.label {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-text-fill: #ffeabf;
+}
+
+.label2 {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-text-fill: black;
+} 
+
+/* --- Titre principal --- */
+.title0 {
+    -fx-font-size: 200px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #f7a767;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.title1 {
+    -fx-font-size: 200px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffd36a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.title2 {
+    -fx-font-size: 80px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffd36a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.title3 {
+    -fx-font-size: 60px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffd36a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.title4 {
+    -fx-font-size: 35px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffd36a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+.title5 {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffd36a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+.title6 {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffd36a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+.title7 {
+    -fx-font-size: 50px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #ffd36a;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.titleresultat1 {
+    -fx-font-size: 60px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #7ED957;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.titleresultat2 {
+    -fx-font-size: 60px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #D95757;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.infoNombre {
+    -fx-font-size: 35px;
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-weight: 800;
+    -fx-text-fill: #cd9d2b;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0.2, 2, 2);
+}
+
+.comboDeck {
+    -fx-background-color: linear-gradient(to bottom, #ffa733, #d07a00);
+    -fx-text-fill: #fff3d1;
+    -fx-font-family: 'Poppins';
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+	-fx-text-align:center;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 4, 0, 0, 2);
+    -fx-border-color: #9e5e00;
+    -fx-border-radius: 12;
+}
+
+

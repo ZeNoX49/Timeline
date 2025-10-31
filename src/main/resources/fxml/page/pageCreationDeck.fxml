@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/app.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPageCreationDeck">
+   <children>
+      <HBox alignment="CENTER" layoutY="10.0" prefHeight="150.0" prefWidth="1540.0" spacing="150.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="495.0" styleClass="title3" stylesheets="@../../css/style.css" text="Nom du deck">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="TextField_DeckName" prefHeight="85.0" prefWidth="500.0" promptText="Nouveau deck">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="495.0" styleClass="title3" stylesheets="@../../css/style.css" text="Lien de l'image">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="TextField_ImageLink" promptText="Lien web de l'image">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox layoutX="25.0" layoutY="215.0" prefHeight="503.0" prefWidth="1490.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="1490.0" spacing="600.0">
+               <children>
+                  <Label styleClass="title4" stylesheets="@../../css/style.css" text="Cartes">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="406.0">
+                     <children>
+                        <Label styleClass="title4" stylesheets="@../../css/style.css" text="Nombre de cartes : ">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="Label_nbCard" styleClass="title4" stylesheets="@../../css/style.css" text="0">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <ScrollPane fx:id="ScrollPane_Card" hbarPolicy="NEVER" prefHeight="440.0" prefWidth="1490.0" vbarPolicy="NEVER">
+               <content>
+                  <VBox fx:id="placeCard" alignment="TOP_CENTER" prefHeight="440.0" prefWidth="1490.0" spacing="17.0" style="-fx-background-color: #262538;" />
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <HBox layoutY="716.0" prefHeight="124.0" prefWidth="1540.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="770.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#delete" prefHeight="75.0" prefWidth="200.0" styleClass="button2" text="Supprimer">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="770.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#confirm" prefHeight="75.0" prefWidth="200.0" styleClass="button1" text="Confirmer">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</Pane>

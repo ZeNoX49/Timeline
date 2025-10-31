@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPageNouvellePartie">
+   <children>
+      <VBox alignment="CENTER" prefHeight="840.0" prefWidth="1540.0" spacing="35.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="250.0" prefWidth="1490.0" spacing="200.0">
+               <children>
+                  <VBox alignment="CENTER" prefWidth="745.0" spacing="25.0">
+                     <children>
+                        <Button fx:id="buttonJ1" mnemonicParsing="false" onAction="#on1Jclick" prefHeight="125.0" prefWidth="450.0" styleClass="button1" text="1 Joueur">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="63.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../img/1person.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <TextField fx:id="txtFieldnomJ1" prefHeight="60.0" prefWidth="337.0" promptText="Nom Joueur 1...">
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefWidth="745.0" spacing="25.0">
+                     <children>
+                        <Button fx:id="buttonJ2" mnemonicParsing="false" onAction="#on2Jclick" prefHeight="126.0" prefWidth="450.0" styleClass="button2" text="2 Joueurs">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="79.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../img/2person.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <TextField fx:id="txtFieldnomJ2" disable="true" prefHeight="60.0" prefWidth="337.0" promptText="Nom Joueur 2...">
+                           <font>
+                              <Font size="31.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets left="200.0" right="200.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="250.0" prefWidth="1490.0" spacing="150.0">
+               <children>
+                  <VBox alignment="CENTER" prefWidth="745.0" spacing="25.0">
+                     <children>
+                        <Label text="Choisir un deck" textFill="WHITE" underline="true" wrapText="true">
+                           <font>
+                              <Font size="52.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="comboDecks" prefHeight="129.0" prefWidth="591.0" promptText="Nom" styleClass="comboDeck">
+                           <effect>
+                              <DropShadow>
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </ComboBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefWidth="745.0" spacing="25.0">
+                     <children>
+                        <Label text="Temps limité" textFill="WHITE" underline="true">
+                           <font>
+                              <Font size="52.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="comboTime" prefHeight="137.0" prefWidth="595.0" promptText="20 sec" styleClass="comboDeck" />
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets left="100.0" right="100.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="175.0" prefWidth="1490.0" spacing="150.0">
+               <padding>
+                  <Insets left="100.0" right="100.0" />
+               </padding>
+               <children>
+                  <ImageView fitHeight="225.0" fitWidth="225.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/carteDeGauche.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#onConfirmClick" prefHeight="152.0" prefWidth="500.0" styleClass="button1" text="Confirmer" />
+                  <ImageView fitHeight="225.0" fitWidth="225.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/carteDeDroite.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#onRetour" prefHeight="50.0" prefWidth="75.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/retour.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

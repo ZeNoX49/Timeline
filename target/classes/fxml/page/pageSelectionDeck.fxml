@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/application.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPageSelectionDeck">
+   <children>
+      <Button layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#retour" prefHeight="50.0" prefWidth="75.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/retour.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <HBox alignment="CENTER" layoutX="90.0" prefHeight="100.0" prefWidth="1450.0" spacing="250.0">
+         <children>
+            <Label styleClass="title3" stylesheets="@../../css/style.css" text="Cartes">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="670.0">
+               <children>
+                  <Label styleClass="title3" stylesheets="@../../css/style.css" text="Nombre de deck : ">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Label_nbDeck" styleClass="title3" stylesheets="@../../css/style.css" text="0">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <ScrollPane hbarPolicy="NEVER" layoutX="25.0" layoutY="100.0" prefHeight="715.0" prefWidth="1490.0" stylesheets="@../../css/application.css" vbarPolicy="NEVER">
+         <content>
+            <VBox fx:id="placeDeck" alignment="TOP_CENTER" prefHeight="715.0" prefWidth="1490.0" spacing="17.0" style="-fx-background-color: #262538;" />
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>

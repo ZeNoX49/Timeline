@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="800.0" styleClass="save-card" stylesheets="@../../css/StyleSave.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.card.ControllerCarteSauvegarde">
+   <children>
+      <Button layoutX="10.0" layoutY="17.5" mnemonicParsing="false" onAction="#onStartSaveClick" prefHeight="125.0" prefWidth="125.0" styleClass="save-start-container">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/SceneBuilderLogo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <VBox fx:id="infoSave" alignment="CENTER_LEFT" layoutX="145.0" layoutY="8.0" prefHeight="142.0" prefWidth="512.0" spacing="8.0" styleClass="save-texts">
+         <children>
+            <Label fx:id="titre" styleClass="save-title" text="Sauvegarde N°1" />
+            <Label fx:id="nbJoueur" styleClass="save-description" text="2 joueurs" wrapText="true" />
+            <Label fx:id="deck" styleClass="save-description" text="Deck de language de programation" wrapText="true" />
+         </children>
+      </VBox>
+      <Button layoutX="665.0" layoutY="17.5" mnemonicParsing="false" onAction="#onDeleteSaveClick" prefHeight="125.0" prefWidth="125.0" styleClass="save-poubelle">
+         <graphic>
+            <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/trash.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>
