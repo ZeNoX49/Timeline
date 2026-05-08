@@ -20,7 +20,7 @@
                         <Font size="40.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="TextField_DeckName" prefHeight="85.0" prefWidth="500.0" promptText="Nouveau deck">
+                  <TextField fx:id="tfDeckName" prefHeight="85.0" prefWidth="500.0" promptText="Nouveau deck">
                      <font>
                         <Font size="40.0" />
                      </font>
@@ -34,7 +34,7 @@
                         <Font size="40.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="TextField_ImageLink" promptText="Lien web de l'image">
+                  <TextField fx:id="tfImageLink" promptText="Lien web de l'image">
                      <font>
                         <Font size="40.0" />
                      </font>
@@ -59,7 +59,7 @@
                               <Font size="40.0" />
                            </font>
                         </Label>
-                        <Label fx:id="Label_nbCard" styleClass="title4" stylesheets="@../../css/style.css" text="0">
+                        <Label fx:id="nbCard" styleClass="title4" stylesheets="@../../css/style.css" text="0">
                            <font>
                               <Font size="40.0" />
                            </font>

@@ -4,61 +4,54 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import app.Main;
+import app.controller.card.ControllerCarte;
+import app.controller.page.ControllerPageCreationDeck;
 import app.pojo.DeckPOJO;
-import app.util.CardManager;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
 
 public class Deck {
-	private CardManager cardManager = CardManager.getInstance();
-
-	private String title;
-	private String imageUrl;
-	private Pane deckPane;
-	private List<Card> cards;
 	
-	/* ----- Constructeur ----- */
-	// pojo
+	public String title;
+	public String imageUrl;
+	private Pane deckPane;
+	public final List<Card> cards;
+	
 	public Deck(DeckPOJO DeckP) {
 		this.title = DeckP.title;
 		this.imageUrl = DeckP.imageUrl;
-	    cards = new ArrayList<>();
+	    this.cards = new ArrayList<>();
 	}
 
-	// normal
 	public Deck(String title, String imageUrl) {
 		this.title = title;
 		this.imageUrl = imageUrl;
-	    cards = new ArrayList<>();
+	    this.cards = new ArrayList<>();
 	}
 	
-	/* ----- setters ----- */
-	public void setTitle(String title) 			{ this.title = title; }
-	public void setImageUrl(String imageUrl) 	{ this.imageUrl = imageUrl; }
-	public void setDeckPane(Pane deckPane) 		{ this.deckPane = deckPane; }
-
-	/* ----- getters ----- */
-	public String getTitle() 		{ return title; }
-	public String getImageUrl() 	{ return imageUrl; }
-	
+	/**
+	 * retourne le pane du deck.
+	 * le créer s'il n'existe pas
+	 */
 	public Pane getDeckPane() throws IOException { 
-		if(deckPane == null) {
-			loadDeckPane();
-		}
-		return deckPane;
-	}
-	public void loadDeckPane() throws IOException { 
-		deckPane = cardManager.createDeckPane(this);
-	}
-
-	/* ----- list ----- */
-	public void addCard(Card card) {
-		cards.add(card);
-	}
-	public void removeCard(Card card) {
-		cards.remove(card);
-	}
-	public List<Card> getCards() {
-		return cards;
+		if(this.deckPane == null) this.createDeckPane();
+		return this.deckPane;
 	}
 	
+	/**
+     * Créer le pane du deck
+     */
+    private void createDeckPane() throws IOException {
+        System.out.println(" - " + this.title);
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/card/carte.fxml"));
+        this.deckPane = loader.load();
+        ControllerCarte controller = loader.getController();
+        controller.setDeck(this);
+
+        deckPane.setOnMouseClicked(_ -> {
+            ControllerPageCreationDeck.setDeck(this);
+            Main.switchPage("pageCreationDeck.fxml");
+        });
+    }
 }

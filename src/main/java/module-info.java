@@ -3,7 +3,7 @@ module app {
     requires javafx.fxml;
     requires com.fasterxml.jackson.core;
     requires com.fasterxml.jackson.databind;
-    requires javafx.graphics;
+    requires transitive javafx.graphics;
     requires javafx.base;
 
     opens app to javafx.fxml;
@@ -12,5 +12,11 @@ module app {
     opens app.controller.page to javafx.fxml;
 
     exports app;
+    exports app.controller.card;
+    exports app.controller.modal;
+    exports app.controller.page;
+    exports app.io;
+    exports app.model;
     exports app.pojo to com.fasterxml.jackson.databind;
+    exports app.util;
 }

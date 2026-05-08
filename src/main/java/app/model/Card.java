@@ -2,21 +2,21 @@ package app.model;
 
 import java.io.IOException;
 
+import app.Main;
+import app.controller.card.ControllerCarte;
+import app.controller.page.ControllerPageCreationCarte;
 import app.pojo.CardPOJO;
-import app.util.CardManager;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
 
 public class Card {
-	private CardManager cardManager = CardManager.getInstance();
 
-	private String title;
-	private String date;
-	private String description;
-	private String imageUrl;
+	public String title;
+	public int date;
+	public String description;
+	public String imageUrl;
 	private Pane cardPane;
 	
-	/* ----- Constructeur ----- */
-	// pojo
 	public Card(CardPOJO cardP) {
 		this.title = cardP.title;
 		this.date = cardP.date;
@@ -24,40 +24,39 @@ public class Card {
 		this.imageUrl = cardP.imageUrl;
 	}
 
-	// normal
-	public Card(String title, String date, String imageUrl, String description) {
+	public Card(String title, int date, String imageUrl, String description) {
 		this.title = title;
 		this.date = date;
 		this.description = description;
 		this.imageUrl = imageUrl;
 	}
 
-	/* ----- setters ----- */
-	public void setTitle(String title) 				{ this.title = title; }
-	public void setDate(String date) 				{ this.date = date; }
-	public void setDescription(String description) 	{ this.description = description; }
-	public void setimageUrl(String imageUrl) 		{ this.imageUrl = imageUrl; }
-	public void setCardPane(Pane cardPane) 			{ this.cardPane = cardPane; }
-
-	/* ----- getters ----- */
-	public String getTitle() 		{ return title; }
-	public String getDate() 		{ return date; }
-	public String getDescription() 	{ return description; }
-	public String getImageUrl() 	{ return imageUrl; }
-
+	/**
+	 * retourne le pane de la carte.
+	 * le créer s'il n'existe pas
+	 * @param deck deck contenant la carte
+	 */
 	public Pane getCardPane(Deck deck) throws IOException {
-		if(cardPane == null) {
-			loadCardPane(deck);
-		}
-		return cardPane;
-	}
-	public void loadCardPane(Deck deck) throws IOException {
-		cardPane = cardManager.createCardPane(deck, this);
-	}
-
-	/* ----- utilitaire ----- */
-	public int getDateAsInt() {
-		return Integer.parseInt(date); 
+		if(this.cardPane == null) this.createCardPane(deck);
+		return this.cardPane;
 	}
 	
+	/**
+     * Créer le pane de la carte
+     */
+    private void createCardPane(Deck deck) throws IOException {
+        System.out.println("\t - " + this.title);
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/card/carte.fxml"));
+        this.cardPane = loader.load();
+        ControllerCarte controller = loader.getController();
+        controller.setCard(this);
+        controller.setDateVisible(true);
+
+        cardPane.setOnMouseClicked(_ -> {
+            ControllerPageCreationCarte.setDeck(deck);
+            ControllerPageCreationCarte.setCard(this);
+            Main.switchPage("pageCreationCarte.fxml");
+        });
+    }
+
 }

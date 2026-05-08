@@ -20,12 +20,12 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 
 public class ControllerPageCreationDeck {
-	private CardManager cardManager = CardManager.getInstance();
+	private final static CardManager CARD_MANAGER = CardManager.getInstance();
 
-	@FXML private Label Label_nbCard;
+	@FXML private Label nbCard;
 	@FXML private VBox placeCard;
-    @FXML private TextField TextField_DeckName;
-    @FXML private TextField TextField_ImageLink;
+    @FXML private TextField tfDeckName;
+    @FXML private TextField tfImageLink;
     
     private static Deck deck;
 	public static void setDeck(Deck deck) {
@@ -36,20 +36,20 @@ public class ControllerPageCreationDeck {
 
     @FXML
     public void initialize() throws IOException {
-    	TextField_DeckName.setText(deck.getTitle());
-    	TextField_ImageLink.setText(deck.getImageUrl());
+    	tfDeckName.setText(deck.title);
+    	tfImageLink.setText(deck.imageUrl);
     	
-    	List<HBox> hboxs = cardManager.getCards(deck);
+    	List<HBox> hboxs = CARD_MANAGER.getCards(deck);
 
         HBox hbox;
         if(!hboxs.isEmpty()) {
             hbox = hboxs.get(hboxs.size()-1);
-            if(hbox.getChildren().size() == CardManager.getNbCardMaxInHBox()) {
-                hbox = cardManager.createHBox();
+            if(hbox.getChildren().size() == CardManager.NB_CARD_MAX_IN_HBOX) {
+                hbox = CARD_MANAGER.createHBox();
                 hboxs.add(hbox);
             }
         } else {
-            hbox = cardManager.createHBox();
+            hbox = CARD_MANAGER.createHBox();
 			hboxs.add(hbox);
         }
 		
@@ -59,7 +59,7 @@ public class ControllerPageCreationDeck {
         // Ajouter les cartes
 	    placeCard.getChildren().addAll(hboxs);
     	
-    	Label_nbCard.setText(Integer.toString(deck.getCards().size()));
+    	nbCard.setText(Integer.toString(deck.cards.size()));
     }
 
     private Pane getAddCard() throws IOException {
@@ -74,8 +74,8 @@ public class ControllerPageCreationDeck {
 			// lorsque que clické
 			paneAddCard.setOnMouseClicked(_ -> {
 				try {          
-					Card newCard = new Card("", "", "", "");
-					deck.addCard(newCard);
+					Card newCard = new Card("", 0, "", "");
+					deck.cards.add(newCard);
 					FXMLLoader newLoader = new FXMLLoader(getClass().getResource("/fxml/card/carte.fxml"));
 					Pane newCardPane = newLoader.load();
 					ControllerCarte newController = newLoader.getController();
@@ -93,13 +93,13 @@ public class ControllerPageCreationDeck {
 					lastHbox.getChildren().add(newCardPane);   // on met la nouvelle carte a la place
 
 					// on remet la carte d'ajout
-					if(lastHbox.getChildren().size() == CardManager.getNbCardMaxInHBox()) {
-						lastHbox = cardManager.createHBox();
+					if(lastHbox.getChildren().size() == CardManager.NB_CARD_MAX_IN_HBOX) {
+						lastHbox = CARD_MANAGER.createHBox();
 						placeCard.getChildren().add(lastHbox);
 					}
 					lastHbox.getChildren().add(carteAjout);
 
-					// Label_nbCard.setText(Integer.toString(deck.getCards().size()));
+					// nbCard.setText(Integer.toString(deck.getCards().size()));
                     ControllerPageCreationCarte.setDeck(deck);
                     ControllerPageCreationCarte.setCard(newCard);
                     Main.switchPage("pageCreationCarte.fxml");
@@ -111,9 +111,9 @@ public class ControllerPageCreationDeck {
     
     @FXML
     void confirm(ActionEvent event) throws IOException {
-    	deck.setTitle(TextField_DeckName.getText());
-    	deck.setImageUrl(TextField_ImageLink.getText());
-        deck.loadDeckPane();
+    	deck.title = tfDeckName.getText();
+    	deck.imageUrl = tfImageLink.getText();
+        // deck.loadDeckPane();
     	Main.switchPage("pageSelectionDeck.fxml");
     }
 

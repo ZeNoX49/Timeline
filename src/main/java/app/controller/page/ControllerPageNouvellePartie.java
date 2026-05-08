@@ -17,7 +17,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
 public class ControllerPageNouvellePartie {
-    private GameManager gameManager = GameManager.getInstance();
+    private final static GameManager GAME_MANAGER = GameManager.getInstance();
 
     @FXML private Button buttonJ1;
     @FXML private Button buttonJ2;

@@ -23,7 +23,7 @@
                               <Font size="40.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="TextField_CardName" prefHeight="85.0" prefWidth="839.0" promptText="Nom de la carte...">
+                        <TextField fx:id="tfCardName" prefHeight="85.0" prefWidth="839.0" promptText="Nom de la carte...">
                            <font>
                               <Font size="40.0" />
                            </font>
@@ -37,7 +37,7 @@
                               <Font size="40.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="TextField_CardDate" prefHeight="85.0" prefWidth="839.0" promptText="Date de la carte...">
+                        <TextField fx:id="tfCardDate" prefHeight="85.0" prefWidth="839.0" promptText="Date de la carte...">
                            <font>
                               <Font size="40.0" />
                            </font>
@@ -51,7 +51,7 @@
                               <Font size="40.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="TextField_CardImage" prefHeight="85.0" prefWidth="839.0" promptText="Lien de l'image de la carte...">
+                        <TextField fx:id="tfCardImage" prefHeight="85.0" prefWidth="839.0" promptText="Lien de l'image de la carte...">
                            <font>
                               <Font size="40.0" />
                            </font>
@@ -65,7 +65,7 @@
                               <Font size="40.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="TextField_CardDescription" alignment="TOP_LEFT" prefHeight="227.0" prefWidth="839.0" promptText="Description de la carte...">
+                        <TextField fx:id="tfCardDescription" alignment="TOP_LEFT" prefHeight="227.0" prefWidth="839.0" promptText="Description de la carte...">
                            <font>
                               <Font size="40.0" />
                            </font>

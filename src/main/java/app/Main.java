@@ -1,9 +1,14 @@
 package app;
 
 import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import app.io.JSONLoader;
+import app.model.Deck;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,6 +17,8 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class Main extends Application {
+	public final static List<Deck> DECKS = new ArrayList<>();
+
 	private static Stage primaryStage;
 	private static HashMap<String, String> pageTitle;
 
@@ -21,32 +28,34 @@ public class Main extends Application {
 	public void start(Stage stage) throws IOException {
 		pageTitle = new HashMap<>();
 		// Page principale
-		pageTitle.put("pageAccueil.fxml", 		"Timeline - Accueil");
+		pageTitle.put("pageAccueil.fxml", 		 "Timeline - Accueil");
 		pageTitle.put("pageCreationCarte.fxml", "Timeline - Faire une Carte");
-		pageTitle.put("pageCreationDeck.fxml", 	"Timeline - Faire un Deck");
-		pageTitle.put("pageSauvegarde.fxml", 	"Timeline - Charger une Partie");
+		pageTitle.put("pageCreationDeck.fxml",  "Timeline - Faire un Deck");
+		pageTitle.put("pageSauvegarde.fxml", 	 "Timeline - Charger une Partie");
 		pageTitle.put("pageNouvellePartie.fxml","Timeline - Paramètres de Nouvelle Partie");
-		pageTitle.put("pagePlateau1J.fxml", 	"Timeline - Jeu 1 joueur");
-		pageTitle.put("pagePlateau2J.fxml", 	"Timeline - Jeu 2 joueurs");
+		pageTitle.put("pagePlateau1J.fxml", 	 "Timeline - Jeu 1 joueur");
+		pageTitle.put("pagePlateau2J.fxml", 	 "Timeline - Jeu 2 joueurs");
 		pageTitle.put("pageSelectionDeck.fxml", "Timeline - Création / Modification de Deck");
 		// Page modale
-		pageTitle.put("erreurNewGame.fxml", 	"Timeline - Erreur dans la création de la partie");
-		pageTitle.put("quitterJeu.fxml", 		"Timeline - Quitter le jeu ?");
-		pageTitle.put("quitterPartie.fxml", 	"Timeline - Quitter le partie ?");
-		pageTitle.put("rules.fxml", 			"Timeline - Règles");
-		pageTitle.put("supprimer.fxml", 		"Timeline - Supprimer ?");
-		pageTitle.put("winGame.fxml", 			"Timeline - Fin de partie");
+		pageTitle.put("erreurNewGame.fxml", 	 "Timeline - Erreur dans la création de la partie");
+		pageTitle.put("quitterJeu.fxml", 		 "Timeline - Quitter le jeu ?");
+		pageTitle.put("quitterPartie.fxml", 	 "Timeline - Quitter le partie ?");
+		pageTitle.put("rules.fxml", 			 "Timeline - Règles");
+		pageTitle.put("supprimer.fxml", 		 "Timeline - Supprimer ?");
+		pageTitle.put("winGame.fxml", 			 "Timeline - Fin de partie");
 
 		primaryStage = stage;
 		JSONLoader.load();
 		
-		stage.setOnCloseRequest(event -> {
-			event.consume();
+		stage.setOnCloseRequest(_ -> {
             loadModalPage("quitterJeu.fxml", true);
         });
 		
     	switchPage("pageAccueil.fxml");
-	} public static void main(String[] args) { launch(args); }
+	} public static void main(String[] args) {
+		deleteUselessLog();
+		launch(args);
+	}
 
 	// changer de page, unqiuement pour les pages principales
 	public static void switchPage(String file) {
@@ -96,4 +105,37 @@ public class Main extends Application {
 	public static Object getCurrentController() {
         return currentController;
     }
+
+	/**
+	 * Supprime tous les logs inutiles de JavaFX
+	 * - "javafx.fxml.FXMLLoader$ValueElement processValue"
+	 * - "Loading FXML document with JavaFX API of version"
+	 */
+	private static void deleteUselessLog() {
+		List<String> toDelete = List.of(
+			"javafx.fxml.FXMLLoader$ValueElement processValue",
+			"Loading FXML document with JavaFX API of version"
+		);
+
+		PrintStream originalErr = System.err;
+		System.setErr(new PrintStream(new OutputStream() {
+			private final StringBuilder sb = new StringBuilder();
+
+			@Override
+			public void write(int b) throws IOException {
+				if (b == '\n') {
+					String line = sb.toString();
+					sb.setLength(0);
+
+					// Vérifie si la ligne contient un des motifs à supprimer
+					boolean shouldDelete = toDelete.stream().anyMatch(line::contains);
+					if (!shouldDelete) {
+						originalErr.println(line);
+					}
+				} else {
+					sb.append((char)b);
+				}
+			}
+		}, true));
+	}
 }

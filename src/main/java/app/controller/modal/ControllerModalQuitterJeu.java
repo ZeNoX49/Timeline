@@ -12,7 +12,7 @@ public class ControllerModalQuitterJeu {
     @FXML
     void onConfirmQuit(ActionEvent event) {
     	JSONSaver.save();
-        onCancelQuit(event);
+        this.onCancelQuit(event);
         Platform.exit();
     }
 

@@ -35,8 +35,8 @@ import javafx.util.Duration;
  */
 public abstract class PlateauJeu {
     
-    protected ImageManager imageManager = ImageManager.getInstance();
-    protected GameManager gameManager = GameManager.getInstance();
+    protected final static ImageManager IMAGE_MANAGER = ImageManager.getInstance();
+    protected final static GameManager GAME_MANAGER = GameManager.getInstance();
     
     // Éléments FXML communs
     @FXML protected HBox HBoxCards;

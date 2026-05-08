@@ -15,10 +15,11 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 
 public class ControllerPageCreationCarte {
-	@FXML private TextField TextField_CardName;
-    @FXML private TextField TextField_CardDate;
-    @FXML private TextField TextField_CardDescription;
-    @FXML private TextField TextField_CardImage;
+
+	@FXML private TextField tfCardName;
+    @FXML private TextField tfCardDate;
+    @FXML private TextField tfCardDescription;
+    @FXML private TextField tfCardImage;
     @FXML private StackPane placeCard;
     
     private ControllerCarte controller;
@@ -30,10 +31,10 @@ public class ControllerPageCreationCarte {
 
 	@FXML
 	public void initialize() throws IOException {
-		TextField_CardName.setText(card.getTitle());
-		TextField_CardDate.setText(card.getDate());
-		TextField_CardDescription.setText(card.getDescription());
-		TextField_CardImage.setText(card.getImageUrl());
+		tfCardName.setText(card.title);
+		tfCardDate.setText(Integer.toString(card.date));
+		tfCardDescription.setText(card.description);
+		tfCardImage.setText(card.imageUrl);
 
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/card/carte.fxml"));
 		Pane cardPane = loader.load();
@@ -44,23 +45,23 @@ public class ControllerPageCreationCarte {
 		controller.setDescriptionVisible(false);
 		placeCard.getChildren().add(cardPane);
 		
-		TextField_CardName.textProperty().addListener((_, _, newValue) -> {
-		    card.setTitle(newValue);
+		tfCardName.textProperty().addListener((_, _, newValue) -> {
+		    card.title = newValue;
 		    try { controller.setCard(card);
 			} catch (IOException e) {}
 		});
-		TextField_CardDate.textProperty().addListener((_, _, newValue) -> {
-		    card.setDate(newValue);
+		tfCardDate.textProperty().addListener((_, _, newValue) -> {
+		    card.date = Integer.parseInt(newValue);
 		    try { controller.setCard(card);
 			} catch (IOException e) {}
 		});
-		TextField_CardDescription.textProperty().addListener((_, _, newValue) -> {
-		    card.setDescription(newValue);
+		tfCardDescription.textProperty().addListener((_, _, newValue) -> {
+		    card.description = newValue;
 		    try { controller.setCard(card);
 			} catch (IOException e) {}
 		});
-		TextField_CardImage.textProperty().addListener((_, _, newValue) -> {
-		    card.setimageUrl(newValue);
+		tfCardImage.textProperty().addListener((_, _, newValue) -> {
+		    card.imageUrl = newValue;
 		    try { controller.setCard(card);
 			} catch (IOException e) {}
 		});
@@ -68,7 +69,7 @@ public class ControllerPageCreationCarte {
 	
     @FXML
     void confirm(ActionEvent event) throws IOException {
-		card.loadCardPane(deck);
+		// card.loadCardPane(deck);
     	Main.switchPage("pageCreationDeck.fxml");
     }
 

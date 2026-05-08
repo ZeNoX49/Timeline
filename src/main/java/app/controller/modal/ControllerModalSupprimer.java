@@ -2,7 +2,7 @@ package app.controller.modal;
 
 import java.io.IOException;
 
-import app.Collection;
+import app.Main;
 import app.model.Card;
 import app.model.Deck;
 import javafx.event.ActionEvent;
@@ -20,11 +20,11 @@ public class ControllerModalSupprimer {
     @FXML
     void onConfirm(ActionEvent event) throws IOException {
     	if (card != null) {   			// on supprime la carte du deck
-    		deck.removeCard(card);
+    		deck.cards.remove(card);
     	} else {   						// on supprime le deck
-			Collection.removeDeck(deck);
+			Main.DECKS.remove(deck);
     	}
-		onCancel(event);   // juste pour fermer la page
+		this.onCancel(event);   // fermer la page
     }
 
     @FXML

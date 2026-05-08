@@ -4,21 +4,21 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import app.Collection;
+import app.Main;
 import app.model.Card;
 import app.model.Deck;
 import app.pojo.CardPOJO;
-import app.pojo.CollectionPOJO;
 import app.pojo.DeckPOJO;
 
 public class JSONLoader {
 
-    private static final Path PATH = Paths.get(System.getProperty("user.dir"), "src", "main", "resources", "json", "data.json");
+    private final static Path PATH = Paths.get(System.getProperty("user.dir"), "src", "main", "resources", "json", "data.json");
 
     public static void load() throws IOException {
 
@@ -35,22 +35,22 @@ public class JSONLoader {
                 return;
             }
             
-            CollectionPOJO collectionPOJO = objectMapper.readValue(file, CollectionPOJO.class);
+            List<DeckPOJO> collectionPOJO = objectMapper.readValue(file, objectMapper.getTypeFactory().constructCollectionType(List.class, DeckPOJO.class));
             
             // si il n'y a rien dans le fichier
-            if (collectionPOJO == null || collectionPOJO.decks == null) {
+            if (collectionPOJO == null || collectionPOJO.isEmpty()) {
                 System.err.println("Erreur : Donnees JSON invalides ou vides.");
                 return;
             }
 
-            for (DeckPOJO deckPOJO : collectionPOJO.decks) {
+            for (DeckPOJO deckPOJO : collectionPOJO) {
             	Deck deck = new Deck(deckPOJO);
             	
                 for (CardPOJO cardPOJO : deckPOJO.cards) {
-                    deck.addCard(new Card(cardPOJO));
+                    deck.cards.add(new Card(cardPOJO));
                 }
                 
-                Collection.addDeck(deck);
+                Main.DECKS.add(deck);
                 System.out.println("Deck \"" + deckPOJO.title + "\" charge avec succes (" + deckPOJO.cards.length + " cartes).");
             }
             
