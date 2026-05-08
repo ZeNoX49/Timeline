@@ -17,6 +17,5 @@ module app {
     exports app.controller.page;
     exports app.io;
     exports app.model;
-    exports app.pojo to com.fasterxml.jackson.databind;
     exports app.util;
 }

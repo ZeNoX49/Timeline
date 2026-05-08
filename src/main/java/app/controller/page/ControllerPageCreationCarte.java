@@ -7,6 +7,7 @@ import app.controller.card.ControllerCarte;
 import app.controller.modal.ControllerModalSupprimer;
 import app.model.Card;
 import app.model.Deck;
+import app.util.PageManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -15,6 +16,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 
 public class ControllerPageCreationCarte {
+	private static final PageManager P_M = PageManager.getInstance();
 
 	@FXML private TextField tfCardName;
     @FXML private TextField tfCardDate;
@@ -68,18 +70,18 @@ public class ControllerPageCreationCarte {
 	}
 	
     @FXML
-    void confirm(ActionEvent event) throws IOException {
+    void confirm(ActionEvent event) {
 		// card.loadCardPane(deck);
-    	Main.switchPage("pageCreationDeck.fxml");
+    	P_M.switchPage("pageCreationDeck.fxml");
     }
 
     @FXML
-    void delete(ActionEvent event) throws IOException {
+    void delete(ActionEvent event) {
 		ControllerModalSupprimer.setDeck(deck);
 		ControllerModalSupprimer.setCard(card);
-		Main.loadModalPage("supprimer.fxml", true);
+		P_M.loadModalPage("supprimer.fxml", true);
 
-		Main.switchPage("pageCreationDeck.fxml");
+		P_M.switchPage("pageCreationDeck.fxml");
     }
 
 }

@@ -5,12 +5,12 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/application.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPageSelectionDeck">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/application.css" xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPageSelectionDeck">
    <children>
       <Button layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#retour" prefHeight="50.0" prefWidth="75.0" style="-fx-background-color: transparent;">
          <graphic>
@@ -35,7 +35,7 @@
                         <Font size="40.0" />
                      </font>
                   </Label>
-                  <Label fx:id="Label_nbDeck" styleClass="title3" stylesheets="@../../css/style.css" text="0">
+                  <Label fx:id="lNbDeck" styleClass="title3" stylesheets="@../../css/style.css" text="0">
                      <font>
                         <Font size="40.0" />
                      </font>
@@ -46,7 +46,7 @@
       </HBox>
       <ScrollPane hbarPolicy="NEVER" layoutX="25.0" layoutY="100.0" prefHeight="715.0" prefWidth="1490.0" stylesheets="@../../css/application.css" vbarPolicy="NEVER">
          <content>
-            <VBox fx:id="placeDeck" alignment="TOP_CENTER" prefHeight="715.0" prefWidth="1490.0" spacing="17.0" style="-fx-background-color: #262538;" />
+            <FlowPane fx:id="flowPane" hgap="17.0" prefHeight="715.0" prefWidth="1490.0" style="-fx-background-color: #262538;" vgap="17.0" />
          </content>
       </ScrollPane>
    </children>

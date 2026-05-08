@@ -1,109 +1,57 @@
 package app.controller.page;
 
-import java.io.IOException;
-import java.util.List;
+import java.util.ArrayList;
+import java.util.function.Consumer;
 
 import app.Main;
-import app.controller.card.ControllerCarte;
 import app.controller.card.ControllerCarteAjouter;
 import app.model.Deck;
 import app.util.CardManager;
+import app.util.PageManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
-import javafx.scene.layout.HBox;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
 
 public class ControllerPageSelectionDeck {
-	private final static CardManager CARD_MANAGER = CardManager.getInstance();
+	private final static PageManager P_M = PageManager.getInstance();
+	private final static CardManager C_M = CardManager.getInstance();
 
-	@FXML private Label Label_nbDeck;
-    @FXML private VBox placeDeck;
-
-	private static Pane paneAddCard = null;
-
-	private int nbDeck = 0;
+	@FXML private Label lNbDeck;
+    @FXML private FlowPane flowPane;
     
     @FXML
-    public void initialize() throws IOException {
+    public void initialize() {
     	
-		// Carte de base
-    	List<HBox> hboxs = CARD_MANAGER.getDecks();
+		Consumer<Deck> consumer = (deck) -> {
+			// TODO: ControllerPageCreationDeck.setDeck(this);
+			P_M.switchPage("pageCreationDeck.fxml");
+		};
 
-		HBox hbox;
-        if(!hboxs.isEmpty()) {
-            hbox = hboxs.get(hboxs.size()-1);
-			if(hbox.getChildren().size() == CardManager.NB_CARD_MAX_IN_HBOX) {
-				hbox = CARD_MANAGER.createHBox();
-				hboxs.add(hbox);
-			}
-        } else {
-            hbox = CARD_MANAGER.createHBox();
-			hboxs.add(hbox);
-        }
+		for(Deck deck: Main.DECKS) {
+			this.flowPane.getChildren().add(deck.getDeckPane(MouseEvent.MOUSE_CLICKED, consumer).getKey());
+		}
 
-		// ajout la carte d'ajout a la hbox
-		hbox.getChildren().add(getAddCard());
+		ControllerCarteAjouter cca = new ControllerCarteAjouter("Créer un deck");
+		Pane paneAddCard = cca.getRoot();
+		paneAddCard.setOnMouseClicked(_ -> {
+			Deck newDeck = new Deck("", "", new ArrayList<>());
+			Main.DECKS.add(newDeck);
+			
+			consumer.accept(null);
+		});
 
-		// Ajouter les cartes
-	    this.placeDeck.getChildren().addAll(hboxs);
+		this.flowPane.getChildren().add(paneAddCard);
     	
 		// on affiche le nb de decks
-		this.nbDeck = (hboxs.size()-1) * CardManager.NB_CARD_MAX_IN_HBOX  + hbox.getChildren().size() - 1; // on ne compte pas la carte d'ajout
-    	this.Label_nbDeck.setText(Integer.toString(this.nbDeck));
+		this.lNbDeck.setText(Integer.toString(Main.DECKS.size()));
     }
-
-	private Pane getAddCard() throws IOException {
-		/* ----- Carte d'ajout ----- */
-		if(paneAddCard == null) {
-			// création
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/card/carteAjouter.fxml"));
-			paneAddCard = loader.load();
-			ControllerCarteAjouter controller = loader.getController();
-			controller.setText("Créer un deck");
-
-			// lorsque que clické
-			paneAddCard.setOnMouseClicked(_ -> {
-				try {          
-					Deck newDeck = new Deck("", "");
-					Main.DECKS.add(newDeck);
-					FXMLLoader newLoader = new FXMLLoader(getClass().getResource("/fxml/card/carte.fxml"));
-					Pane newCardPane = newLoader.load();
-					ControllerCarte newController = newLoader.getController();
-					newController.setDeck(newDeck);
-
-					newCardPane.setOnMouseClicked(_ -> {
-						ControllerPageCreationDeck.setDeck(newDeck);
-						Main.switchPage("pageCreationDeck.fxml");
-					});
-
-					HBox lastHbox = (HBox) this.placeDeck.getChildren().getLast();   // On récupère la dernière HBox
-					Pane carteAjout = (Pane) lastHbox.getChildren().getLast();   // On récupère la carte d'ajout
-					lastHbox.getChildren().remove(carteAjout);   // On enleve la carte d'ajout de la HBox
-					lastHbox.getChildren().add(newCardPane);   // on met la nouvelle carte a la place
-
-					// on remet la carte d'ajout
-					if(lastHbox.getChildren().size() == CardManager.NB_CARD_MAX_IN_HBOX) {
-						lastHbox = CARD_MANAGER.createHBox();
-						this.placeDeck.getChildren().add(lastHbox);
-					}
-					lastHbox.getChildren().add(carteAjout);
-
-					// nbDeck++;
-					// this.Label_nbDeck.setText(Integer.toString(nbDeck));
-					ControllerPageCreationDeck.setDeck(newDeck);
-					Main.switchPage("pageCreationDeck.fxml");
-				} catch(IOException e) { e.printStackTrace(); }
-			});
-		}
-		return paneAddCard;
-	}
 
 	@FXML
     void retour(ActionEvent event) {
-    	Main.switchPage("pageAccueil.fxml");
+    	P_M.switchPage("pageAccueil.fxml");
     }
 	
 }

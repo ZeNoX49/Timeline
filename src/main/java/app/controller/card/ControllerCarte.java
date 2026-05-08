@@ -1,7 +1,5 @@
 package app.controller.card;
 
-import java.io.IOException;
-
 import app.model.Card;
 import app.model.Deck;
 import app.util.ImageManager;
@@ -12,7 +10,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 
 public class ControllerCarte {
-	private ImageManager imageManager = ImageManager.getInstance();
+	private static final ImageManager I_M = ImageManager.getInstance();
 
     @FXML private ImageView imgView;
     @FXML private Label labelTitle;
@@ -22,48 +20,53 @@ public class ControllerCarte {
 	@FXML private Pane paneDescription;
 	@FXML private Label labelDescription;
     
-    // private Card card;
+    private final Card card;
+	private final Deck deck;
 
-	/* ----- Constructeur ----- */
-	public void setCard(Card card) throws IOException {
-		// this.card = card;
-		labelTitle.setText(card.title);
-        labelDate.setText(Integer.toString(card.date));
-        imgView.setImage(imageManager.getImage(card.imageUrl, 150, 150));
-		labelDescription.setText(card.description);
-    }
-
-	public void setDeck(Deck deck) throws IOException {
-		labelTitle.setText(deck.title);
-		imgView.setImage(imageManager.getImage(deck.imageUrl, 150, 150));
-		setDescriptionVisible(false);
-		setDateVisible(false);
+	public ControllerCarte(Card card) {
+		this.card = card;
+		this.deck = null;
+	}
+	
+	public ControllerCarte(Deck deck) {
+		this.deck = deck;
+		this.card = null;
 	}
 
 	@FXML
 	private void initialize() {
-		// TODO
+		if(this.card != null) {
+			this.labelTitle.setText(this.card.title);
+			this.labelDate.setText(Integer.toString(this.card.date));
+			this.imgView.setImage(I_M.getImage(this.card.imageUrl, 150, 150));
+			this.labelDescription.setText(this.card.description);
+		} else {
+			this.labelTitle.setText(this.deck.title);
+			this.imgView.setImage(I_M.getImage(this.deck.imageUrl, 150, 150));
+			this.setDescriptionVisible(false);
+			this.setDateVisible(false);
+		}
 	}
 	
 	public void setDescriptionVisible(boolean visible) {
-		buttonDescription.setVisible(visible);
+		this.buttonDescription.setVisible(visible);
 		buttonDescription.setDisable(!visible);
 	}
 
 	public void setDateVisible(boolean visible) {
-		paneDate.setVisible(visible);
+		this.paneDate.setVisible(visible);
 	}
 	
-	// @FXML
-	public void checkDescription() {
-		paneDescription.setVisible(true);
-		paneDescription.setDisable(false);
+	@FXML
+	private void checkDescription() {
+		this.paneDescription.setVisible(true);
+		this.paneDescription.setDisable(false);
 	}
 
-	// @FXML
-	public void closeDescription() {
-		paneDescription.setVisible(false);
-		paneDescription.setDisable(true);
+	@FXML
+	private void closeDescription() {
+		this.paneDescription.setVisible(false);
+		this.paneDescription.setDisable(true);
 	}
 	
 }

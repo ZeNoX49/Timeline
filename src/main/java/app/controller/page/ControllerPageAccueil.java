@@ -1,10 +1,11 @@
 package app.controller.page;
 
-import app.Main;
+import app.util.PageManager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
 public class ControllerPageAccueil {
+    private static final PageManager P_M = PageManager.getInstance();
 
     // public void initialization() {
     //     app.util.GameManager.reset();
@@ -12,26 +13,26 @@ public class ControllerPageAccueil {
 
     @FXML
     void onSelectionDeck(ActionEvent event) {
-    	Main.switchPage("pageSelectionDeck.fxml");
+    	P_M.switchPage("pageSelectionDeck.fxml");
     }
 
     @FXML
     void onLoadGame(ActionEvent event) {
-    	Main.switchPage("pageSauvegarde.fxml");
+    	P_M.switchPage("pageSauvegarde.fxml");
     }
 
     @FXML
     void onNewGame(ActionEvent event) {
-        Main.switchPage("pageNouvellePartie.fxml");
+        P_M.switchPage("pageNouvellePartie.fxml");
     }
     
     @FXML
     void onExitApp(ActionEvent event) {
-        Main.loadModalPage("quitterJeu.fxml");
+        P_M.loadModalPage("quitterJeu.fxml", false);
     }
     
     @FXML
     void onCredit(ActionEvent event) {
-        Main.loadModalPage("regle.fxml");
+        P_M.loadModalPage("regle.fxml", false);
     }
 }
