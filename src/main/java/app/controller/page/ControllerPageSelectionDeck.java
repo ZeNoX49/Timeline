@@ -1,57 +1,50 @@
 package app.controller.page;
 
 import java.util.ArrayList;
-import java.util.function.Consumer;
 
 import app.Main;
 import app.controller.card.ControllerCarteAjouter;
 import app.model.Deck;
 import app.util.CardManager;
 import app.util.PageManager;
+import app.util.SingletonRegistry;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.Pane;
 
 public class ControllerPageSelectionDeck {
-	private final static PageManager P_M = PageManager.getInstance();
-	private final static CardManager C_M = CardManager.getInstance();
+	private static final CardManager C_M = SingletonRegistry.get(CardManager.class, CardManager::new);
+	private static final PageManager P_M = SingletonRegistry.get(PageManager.class, PageManager::new);
 
 	@FXML private Label lNbDeck;
     @FXML private FlowPane flowPane;
     
     @FXML
     public void initialize() {
+		this.flowPane.getChildren().clear();
     	
-		Consumer<Deck> consumer = (deck) -> {
-			// TODO: ControllerPageCreationDeck.setDeck(this);
-			P_M.switchPage("pageCreationDeck.fxml");
-		};
+		for (Deck deck : Main.DECKS) {
+            Pane deckPane = C_M.getDeckPane(deck);
+            deckPane.setOnMouseClicked(_ -> P_M.switchPage("pageCreationDeck.fxml", new ControllerPageCreationDeck(deck)));
+            this.flowPane.getChildren().add(deckPane);
+        }
 
-		for(Deck deck: Main.DECKS) {
-			this.flowPane.getChildren().add(deck.getDeckPane(MouseEvent.MOUSE_CLICKED, consumer).getKey());
-		}
+        Pane addDeck = new ControllerCarteAjouter("Créer un deck").getRoot();
+        addDeck.setOnMouseClicked(_ -> {
+            Deck newDeck = new Deck("", "", new ArrayList<>());
+            Main.DECKS.add(newDeck);
+            P_M.switchPage("pageCreationDeck.fxml", new ControllerPageCreationDeck(newDeck));
+        });
+        this.flowPane.getChildren().add(addDeck);
 
-		ControllerCarteAjouter cca = new ControllerCarteAjouter("Créer un deck");
-		Pane paneAddCard = cca.getRoot();
-		paneAddCard.setOnMouseClicked(_ -> {
-			Deck newDeck = new Deck("", "", new ArrayList<>());
-			Main.DECKS.add(newDeck);
-			
-			consumer.accept(null);
-		});
-
-		this.flowPane.getChildren().add(paneAddCard);
-    	
-		// on affiche le nb de decks
-		this.lNbDeck.setText(Integer.toString(Main.DECKS.size()));
+        this.lNbDeck.setText(Integer.toString(Main.DECKS.size()));
     }
 
 	@FXML
     void retour(ActionEvent event) {
-    	P_M.switchPage("pageAccueil.fxml");
+    	P_M.switchPage("pageAccueil.fxml", null);
     }
 	
 }

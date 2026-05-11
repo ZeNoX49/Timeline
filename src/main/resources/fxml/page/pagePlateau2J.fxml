@@ -1,245 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.effect.DropShadow?>
-<?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Region?>
-<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPagePlateau2J">
-   
-   <!-- Header avec gradient -->
-   <Region layoutX="0.0" layoutY="0.0" prefHeight="110.0" prefWidth="1540.0" style="-fx-background-color: linear-gradient(to bottom, rgba(38, 37, 56, 0.95), rgba(38, 37, 56, 0.7));">
-      <effect>
-         <DropShadow color="#00000066" radius="10.0" />
-      </effect>
-   </Region>
-   
-   <!-- Bouton Retour stylisé -->
-   <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#QuitGame" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: rgba(255, 255, 255, 0.1); -fx-background-radius: 30; -fx-border-color: rgba(255, 255, 255, 0.3); -fx-border-width: 2; -fx-border-radius: 30;">
-      <graphic>
-         <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-               <Image url="@../../img/retour.png" />
-            </image>
-         </ImageView>
-      </graphic>
-      <effect>
-         <DropShadow color="#00000044" radius="8.0" />
-      </effect>
-   </Button>
-   
-   <!-- Message de résultat centré -->
-   <StackPane layoutX="100.0" layoutY="25.0" prefHeight="60.0" prefWidth="900.0">
-      <Label fx:id="resCoup" alignment="CENTER" styleClass="titleresultat1" textFill="#FF4444">
-         <font>
-            <Font name="System Bold" size="28.0" />
-         </font>
-         <effect>
-            <DropShadow color="#00000088" radius="5.0" />
-         </effect>
-      </Label>
-   </StackPane>
-   
-   <!-- Scores des 2 joueurs -->
-   <HBox alignment="CENTER" layoutX="1020.0" layoutY="20.0" prefHeight="70.0" prefWidth="497.0" spacing="15.0">
-      <!-- Score Joueur 1 -->
-      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="241.0" spacing="10.0" style="-fx-background-color: rgba(74, 144, 226, 0.3); -fx-background-radius: 15; -fx-border-color: rgba(74, 144, 226, 0.5); -fx-border-width: 2; -fx-border-radius: 15;">
-         <padding>
-            <Insets left="15.0" right="15.0" />
-         </padding>
-         <effect>
-            <DropShadow color="#00000044" radius="8.0" />
-         </effect>
+<AnchorPane prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#QuitGame" prefHeight="50.0" prefWidth="75.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/retour.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <HBox alignment="CENTER" spacing="10" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="20">
          <children>
-            <Label text="J1" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="20.0" />
-               </font>
-            </Label>
-            <Region HBox.hgrow="ALWAYS" />
-            <Label fx:id="labelScore1" text="0" textFill="#FFD700">
-               <font>
-                  <Font name="System Bold" size="32.0" />
-               </font>
-            </Label>
+            <Button onAction="#QuitGame" prefHeight="48.0" prefWidth="147.0" styleClass="buttonRetour" text="Retour" />
+            <Region prefHeight="95.0" prefWidth="376.0" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" prefHeight="146.0" prefWidth="598.0">
+               <children>
+                  <VBox prefHeight="146.0" prefWidth="262.0">
+                     <children>
+                        <Label prefHeight="73.0" prefWidth="317.0" styleClass="title7" text="Score J1: " textFill="WHITE" />
+                        <Label styleClass="title7" text="Score J2: " textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="146.0" prefWidth="55.0">
+                     <children>
+                        <Label fx:id="scoreLabel1" prefHeight="86.0" prefWidth="57.0" styleClass="infoNombre" text="00" textFill="WHITE" />
+                        <Label fx:id="scoreLabel2" prefHeight="61.0" prefWidth="54.0" styleClass="infoNombre" text="00" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
          </children>
       </HBox>
-      
-      <!-- Score Joueur 2 -->
-      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="241.0" spacing="10.0" style="-fx-background-color: rgba(226, 74, 144, 0.3); -fx-background-radius: 15; -fx-border-color: rgba(226, 74, 144, 0.5); -fx-border-width: 2; -fx-border-radius: 15;">
-         <padding>
-            <Insets left="15.0" right="15.0" />
-         </padding>
-         <effect>
-            <DropShadow color="#00000044" radius="8.0" />
-         </effect>
+      <ScrollPane layoutX="42.0" layoutY="174.0" prefHeight="242.0" prefWidth="1358.0" stylesheets="@../../css/application.css" vbarPolicy="NEVER">
+         <content>
+            <HBox fx:id="hBoxTimeline" alignment="CENTER" prefHeight="237.0" prefWidth="1355.0" spacing="20" style="-fx-background-color: #262538;" />
+         </content>
+      </ScrollPane>
+      <VBox alignment="CENTER" layoutX="488.0" layoutY="571.0" prefHeight="398.0" prefWidth="921.0" spacing="5" AnchorPane.leftAnchor="488.0" AnchorPane.rightAnchor="35.0">
          <children>
-            <Label text="J2" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="20.0" />
-               </font>
-            </Label>
-            <Region HBox.hgrow="ALWAYS" />
-            <Label fx:id="labelScore2" text="0" textFill="#FFD700">
-               <font>
-                  <Font name="System Bold" size="32.0" />
-               </font>
-            </Label>
+            <Label fx:id="playerName" styleClass="title3" text="Nom Joueur" textFill="white" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label styleClass="title3" text="Cartes restantes : " textFill="white" />
+                  <Label fx:id="remainingCards" prefHeight="1.0" prefWidth="41.0" styleClass="infoNombre" text="00" textFill="white" />
+               </children>
+            </HBox>
+            <HBox fx:id="HBoxMainJ1" prefHeight="201.0" prefWidth="809.0" style="-fx-spacing: 30;" />
          </children>
-      </HBox>
-   </HBox>
-   
-   <!-- Zone Timeline avec design amélioré et centrée -->
-   <VBox layoutX="25.0" layoutY="125.0" prefHeight="250.0" prefWidth="1490.0" spacing="5.0">
-      <Label text="TIMELINE" textFill="rgba(255, 255, 255, 0.6)">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-         <VBox.margin>
-            <Insets bottom="5.0" left="10.0" />
-         </VBox.margin>
-      </Label>
-      
-      <StackPane prefHeight="230.0" prefWidth="1490.0">
-         <!-- Fond avec bordure -->
-         <Rectangle arcHeight="20.0" arcWidth="20.0" fill="rgba(38, 37, 56, 0.6)" height="230.0" stroke="rgba(255, 255, 255, 0.15)" strokeWidth="2.0" width="1490.0">
-            <effect>
-               <InnerShadow color="#00000066" radius="10.0" />
-            </effect>
-         </Rectangle>
-         
-         <!-- ScrollPane qui centre le contenu -->
-         <ScrollPane fx:id="scrollPaneTimeline" fitToHeight="true" hbarPolicy="NEVER" pannable="false" prefHeight="220.0" prefWidth="1480.0" style="-fx-background: transparent; -fx-background-color: transparent;" stylesheets="@../../css/app.css" vbarPolicy="NEVER">
-            <content>
-               <!-- HBox avec alignment CENTER pour centrer les cartes -->
-               <HBox fx:id="hBoxTimeline" alignment="CENTER" minWidth="1460.0" prefWidth="1460.0" spacing="30.0" style="-fx-background-color: transparent;">
-                  <padding>
-                     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                  </padding>
-               </HBox>
-            </content>
-         </ScrollPane>
-      </StackPane>
-   </VBox>
-   
-   <!-- Zone inférieure avec cartes -->
-   <HBox alignment="BOTTOM_CENTER" layoutX="25.0" layoutY="395.0" prefHeight="430.0" prefWidth="1490.0" spacing="25.0">
-      <children>
-         <!-- Pioche avec design carte -->
-         <VBox alignment="CENTER" prefHeight="430.0" prefWidth="360.0" spacing="15.0" style="-fx-background-color: rgba(38, 37, 56, 0.6); -fx-background-radius: 20; -fx-border-color: rgba(255, 255, 255, 0.15); -fx-border-width: 2; -fx-border-radius: 20;">
-            <padding>
-               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-            </padding>
-            <effect>
-               <DropShadow color="#00000044" radius="10.0" />
-            </effect>
-            <children>
-               <Label styleClass="title3" text="PIOCHE" textFill="white">
-                  <font>
-                     <Font name="System Bold" size="20.0" />
-                  </font>
-               </Label>
-               
-               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="320.0" spacing="10.0" style="-fx-background-color: rgba(255, 255, 255, 0.05); -fx-background-radius: 10;">
-                  <padding>
-                     <Insets left="15.0" right="15.0" />
-                  </padding>
-                  <children>
-                     <Label alignment="CENTER" styleClass="title4" text="Restantes" textFill="rgba(255, 255, 255, 0.8)">
-                        <font>
-                           <Font size="16.0" />
-                        </font>
-                     </Label>
-                     <Region HBox.hgrow="ALWAYS" />
-                     <Label fx:id="piocheCarteLabel" alignment="CENTER" styleClass="infoNombre" text="0" textFill="#4A90E2">
-                        <font>
-                           <Font name="System Bold" size="28.0" />
-                        </font>
-                     </Label>
-                  </children>
-               </HBox>
-               
-               <StackPane fx:id="spPile" prefHeight="270.0" prefWidth="320.0">
-                  <effect>
-                     <DropShadow color="#00000088" radius="15.0" />
-                  </effect>
-               </StackPane>
-            </children>
-         </VBox>
-      
-         <!-- Zone joueur avec cartes -->
-         <VBox alignment="CENTER" prefHeight="430.0" prefWidth="1090.0" spacing="10.0" style="-fx-background-color: rgba(38, 37, 56, 0.6); -fx-background-radius: 20; -fx-border-color: rgba(255, 255, 255, 0.15); -fx-border-width: 2; -fx-border-radius: 20;">
-            <padding>
-               <Insets bottom="15.0" left="20.0" right="20.0" top="15.0" />
-            </padding>
-            <effect>
-               <DropShadow color="#00000044" radius="10.0" />
-            </effect>
-            <children>
-               <!-- En-tête joueur -->
-               <HBox alignment="CENTER" prefHeight="70.0" prefWidth="1050.0" spacing="20.0">
-                  <children>
-                     <VBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
-                        <Label fx:id="labelPlayerName" styleClass="title3" text="Nom Joueur" textFill="white">
-                           <font>
-                              <Font name="System Bold" size="22.0" />
-                           </font>
-                        </Label>
-                     </VBox>
-                     
-                     <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0" spacing="10.0" style="-fx-background-color: rgba(74, 144, 226, 0.2); -fx-background-radius: 10; -fx-border-color: rgba(74, 144, 226, 0.4); -fx-border-width: 2; -fx-border-radius: 10;">
-                        <padding>
-                           <Insets left="15.0" right="15.0" />
-                        </padding>
-                        <children>
-                           <Label styleClass="title4" text="En main" textFill="white">
-                              <font>
-                                 <Font size="16.0" />
-                              </font>
-                           </Label>
-                           <Region HBox.hgrow="ALWAYS" />
-                           <Label fx:id="labelRemainingCards" styleClass="infoNombre" text="0" textFill="#4A90E2">
-                              <font>
-                                 <Font name="System Bold" size="24.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                  </children>
-               </HBox>
-               
-               <!-- Zone des cartes avec scroll -->
-               <StackPane prefHeight="260.0" prefWidth="1050.0">
-                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="rgba(0, 0, 0, 0.2)" height="260.0" stroke="rgba(255, 255, 255, 0.1)" strokeWidth="1.0" width="1050.0">
-                     <effect>
-                        <InnerShadow color="#00000044" radius="5.0" />
-                     </effect>
-                  </Rectangle>
-                  
-                  <ScrollPane hbarPolicy="NEVER" prefHeight="250.0" prefWidth="1040.0" style="-fx-background: transparent; -fx-background-color: transparent;" stylesheets="@../../css/app.css" vbarPolicy="NEVER">
-                     <content>
-                        <HBox fx:id="HBoxCards" alignment="CENTER" prefHeight="240.0" prefWidth="1035.0" spacing="30.0" style="-fx-background-color: transparent;">
-                           <padding>
-                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                           </padding>
-                        </HBox>
-                     </content>
-                  </ScrollPane>
-               </StackPane>
-            </children>
-         </VBox>
-      </children>
-   </HBox>
-
+      </VBox>
+      <VBox alignment="CENTER" layoutX="10.0" layoutY="567.0" prefHeight="367.0" prefWidth="374.0">
+         <children>
+            <Label styleClass="title3" text="Pioche" textFill="white" />
+            <HBox alignment="CENTER" prefHeight="118.0" prefWidth="321.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="51.0" prefWidth="310.0" styleClass="title4" text="Carte restante :" textFill="white" />
+                  <Label fx:id="piocheCarteLabel" alignment="CENTER" prefHeight="88.0" prefWidth="127.0" styleClass="infoNombre" text="00" textFill="white" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
 </AnchorPane>

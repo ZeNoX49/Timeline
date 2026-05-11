@@ -6,21 +6,9 @@ import static java.util.Objects.hash;
 
 import javafx.scene.image.Image;
 
-public class ImageManager {
+public class ImageManager implements SingletonRegistry.Singleton {
 
-    private static ImageManager instance;
-    public static ImageManager getInstance() {
-        if (instance == null) {
-            instance = new ImageManager();
-        }
-        return instance;
-    }
-
-    private ImageManager() {}
-
-    /* ================================================== */
-
-    private final static Map<ImgVar, Image> CACHE = new HashMap<>();
+    private static final Map<ImgVar, Image> CACHE = new HashMap<>();
 
     public Image getImage(String urlImage, int maxSizeX, int maxSizeY) {
         ImgVar imgVar = new ImgVar(urlImage, maxSizeX, maxSizeY);

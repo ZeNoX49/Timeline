@@ -8,12 +8,13 @@ import java.util.List;
 import app.io.JSONLoader;
 import app.model.Deck;
 import app.util.PageManager;
+import app.util.SingletonRegistry;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-	private static final PageManager P_M = PageManager.getInstance();
-
+	private static final PageManager P_M = SingletonRegistry.get(PageManager.class, PageManager::new);
+	
 	public static List<Deck> DECKS;
 	
 	@Override
@@ -22,11 +23,11 @@ public class Main extends Application {
 		
 		stage.setOnCloseRequest(_ -> {
 			// TOOD: a améliorer
-            P_M.loadModalPage("quitterJeu.fxml", true);
+            P_M.loadModalPage("quitterJeu.fxml", null, true);
         });
 		
-		P_M.setStage(stage);
-    	P_M.switchPage("pageAccueil.fxml");
+		P_M.init(stage);
+    	P_M.switchPage("pageAccueil.fxml", null);
 	} public static void main(String[] args) {
 		deleteUselessLog();
 		launch(args);

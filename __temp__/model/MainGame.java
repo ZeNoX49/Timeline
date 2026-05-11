@@ -1,10 +1,5 @@
 package app.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import app.util.GameManager;
-
 public class MainGame {
 	// GameManager gameManager = GameManager.getInstance();
 	

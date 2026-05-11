@@ -14,7 +14,7 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPageNouvellePartie">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1540.0" styleClass="background" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.page.ControllerPageNouvellePartie">
    <children>
       <VBox alignment="CENTER" prefHeight="840.0" prefWidth="1540.0" spacing="35.0">
          <children>
@@ -22,7 +22,7 @@
                <children>
                   <VBox alignment="CENTER" prefWidth="745.0" spacing="25.0">
                      <children>
-                        <Button fx:id="buttonJ1" mnemonicParsing="false" onAction="#on1Jclick" prefHeight="125.0" prefWidth="450.0" styleClass="button1" text="1 Joueur">
+                        <Button fx:id="btnJ1" mnemonicParsing="false" onAction="#on1Jclick" prefHeight="125.0" prefWidth="450.0" styleClass="button1" text="1 Joueur">
                            <font>
                               <Font size="23.0" />
                            </font>
@@ -34,7 +34,7 @@
                               </ImageView>
                            </graphic>
                         </Button>
-                        <TextField fx:id="txtFieldnomJ1" prefHeight="60.0" prefWidth="337.0" promptText="Nom Joueur 1...">
+                        <TextField fx:id="tfNomJ1" prefHeight="60.0" prefWidth="337.0" promptText="Nom Joueur 1...">
                            <font>
                               <Font size="31.0" />
                            </font>
@@ -43,7 +43,7 @@
                   </VBox>
                   <VBox alignment="CENTER" prefWidth="745.0" spacing="25.0">
                      <children>
-                        <Button fx:id="buttonJ2" mnemonicParsing="false" onAction="#on2Jclick" prefHeight="126.0" prefWidth="450.0" styleClass="button2" text="2 Joueurs">
+                        <Button fx:id="btnJ2" mnemonicParsing="false" onAction="#on2Jclick" prefHeight="126.0" prefWidth="450.0" styleClass="button2" text="2 Joueurs">
                            <font>
                               <Font size="36.0" />
                            </font>
@@ -55,7 +55,7 @@
                               </ImageView>
                            </graphic>
                         </Button>
-                        <TextField fx:id="txtFieldnomJ2" disable="true" prefHeight="60.0" prefWidth="337.0" promptText="Nom Joueur 2...">
+                        <TextField fx:id="tfNomJ2" disable="true" prefHeight="60.0" prefWidth="337.0" promptText="Nom Joueur 2...">
                            <font>
                               <Font size="31.0" />
                            </font>
@@ -76,7 +76,7 @@
                               <Font size="52.0" />
                            </font>
                         </Label>
-                        <ComboBox fx:id="comboDecks" prefHeight="129.0" prefWidth="591.0" promptText="Nom" styleClass="comboDeck">
+                        <ComboBox fx:id="cbDeck" prefHeight="129.0" prefWidth="591.0" promptText="Nom" styleClass="comboDeck">
                            <effect>
                               <DropShadow>
                                  <color>
@@ -94,7 +94,7 @@
                               <Font size="52.0" />
                            </font>
                         </Label>
-                        <ComboBox fx:id="comboTime" prefHeight="137.0" prefWidth="595.0" promptText="20 sec" styleClass="comboDeck" />
+                        <ComboBox fx:id="cbTime" prefHeight="137.0" prefWidth="595.0" promptText="20 sec" styleClass="comboDeck" />
                      </children>
                   </VBox>
                </children>

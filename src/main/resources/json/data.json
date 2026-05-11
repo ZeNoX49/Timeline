@@ -4,78 +4,78 @@
   "cards" : [ {
     "title" : "C",
     "date" : 1972,
-    "description" : "C est un langage de programmation imperatif, generaliste et de bas niveau.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1086px-C_Programming_Language.svg.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1086px-C_Programming_Language.svg.png",
+    "description" : "C est un langage de programmation imperatif, generaliste et de bas niveau."
   }, {
     "title" : "Python",
     "date" : 1991,
-    "description" : "Python est un langage de programmation interprete, multiplateforme et facile a lire.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+    "description" : "Python est un langage de programmation interprete, multiplateforme et facile a lire."
   }, {
     "title" : "Java",
     "date" : 1995,
-    "description" : "Java est un langage de programmation de haut niveau oriente objet.",
-    "imageUrl" : "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png"
+    "imageUrl" : "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png",
+    "description" : "Java est un langage de programmation de haut niveau oriente objet."
   }, {
     "title" : "Fortran",
     "date" : 1957,
-    "description" : "Premier langage de programmation de haut niveau, utilise pour le calcul scientifique.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/2048px-Fortran_logo.svg.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/2048px-Fortran_logo.svg.png",
+    "description" : "Premier langage de programmation de haut niveau, utilise pour le calcul scientifique."
   }, {
     "title" : "COBOL",
     "date" : 1959,
-    "description" : "Langage concu pour la gestion commerciale, utilise dans les systemes bancaires.",
-    "imageUrl" : "https://ih1.redbubble.net/image.957748405.3547/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+    "imageUrl" : "https://ih1.redbubble.net/image.957748405.3547/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+    "description" : "Langage concu pour la gestion commerciale, utilise dans les systemes bancaires."
   }, {
     "title" : "C++",
     "date" : 1985,
-    "description" : "Extension oriente objet du langage C.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+    "description" : "Extension oriente objet du langage C."
   }, {
     "title" : "JavaScript",
     "date" : 1995,
-    "description" : "Langage de script utilise principalement pour le developpement web.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "description" : "Langage de script utilise principalement pour le developpement web."
   }, {
     "title" : "Ruby",
     "date" : 1995,
-    "description" : "Langage de script oriente objet, connu pour sa simplicite.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/2048px-Ruby_logo.svg.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/2048px-Ruby_logo.svg.png",
+    "description" : "Langage de script oriente objet, connu pour sa simplicite."
   }, {
     "title" : "PHP",
     "date" : 1995,
-    "description" : "Langage de script utilisé pour le développement web côté serveur.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUEY4khDDf-5bMG2_c3QrnJLvd-nGsPmz6tw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUEY4khDDf-5bMG2_c3QrnJLvd-nGsPmz6tw&s",
+    "description" : "Langage de script utilisé pour le développement web côté serveur."
   }, {
     "title" : "Swift",
     "date" : 2014,
-    "description" : "Langage de programmation cree par Apple pour iOS et macOS.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Luw1qBFBLQWuj4RHKnMRl5K5iQf_HKz2FQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Luw1qBFBLQWuj4RHKnMRl5K5iQf_HKz2FQ&s",
+    "description" : "Langage de programmation cree par Apple pour iOS et macOS."
   }, {
     "title" : "Kotlin",
     "date" : 2011,
-    "description" : "Langage moderne compatible avec la JVM.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+    "description" : "Langage moderne compatible avec la JVM."
   }, {
     "title" : "Go",
     "date" : 2009,
-    "description" : "Langage open source developpe par Google, connu pour sa simplicite.",
-    "imageUrl" : "https://w7.pngwing.com/pngs/958/424/png-transparent-golang-brands-icon-thumbnail.png"
+    "imageUrl" : "https://w7.pngwing.com/pngs/958/424/png-transparent-golang-brands-icon-thumbnail.png",
+    "description" : "Langage open source developpe par Google, connu pour sa simplicite."
   }, {
     "title" : "Scala",
     "date" : 2004,
-    "description" : "Langage fonctionnel et oriente objet pour la JVM.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0shvuzkB36W0-bU6B4VFKnIkOhnRnrLYb4w&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0shvuzkB36W0-bU6B4VFKnIkOhnRnrLYb4w&s",
+    "description" : "Langage fonctionnel et oriente objet pour la JVM."
   }, {
     "title" : "Perl",
     "date" : 1987,
-    "description" : "Langage de script polyvalent, apprecie pour le traitement de texte.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Perl-logo.svg/1200px-Perl-logo.svg.png"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Perl-logo.svg/1200px-Perl-logo.svg.png",
+    "description" : "Langage de script polyvalent, apprecie pour le traitement de texte."
   }, {
     "title" : "Rust",
     "date" : 2010,
-    "description" : "Langage moderne axe sur la securite et la performance.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3X6kNltLcXvHc8akxDy_JpYrZkABotlFLrQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3X6kNltLcXvHc8akxDy_JpYrZkABotlFLrQ&s",
+    "description" : "Langage moderne axe sur la securite et la performance."
   } ]
 }, {
   "title" : "Grandes informaticiennes",
@@ -83,53 +83,53 @@
   "cards" : [ {
     "title" : "Ada Lovelace",
     "date" : 1815,
-    "description" : "Ada Lovelace est consideree comme la premiere programmeuse.",
-    "imageUrl" : "https://blogs.univ-poitiers.fr/busciences/files/2019/10/417px-Ada_Lovelace_portrait.jpg"
+    "imageUrl" : "https://blogs.univ-poitiers.fr/busciences/files/2019/10/417px-Ada_Lovelace_portrait.jpg",
+    "description" : "Ada Lovelace est consideree comme la premiere programmeuse."
   }, {
     "title" : "Grace Hopper",
     "date" : 1906,
-    "description" : "Pionniere du langage COBOL et du debogage.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Grace_Hopper_and_UNIVAC.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/3/37/Grace_Hopper_and_UNIVAC.jpg",
+    "description" : "Pionniere du langage COBOL et du debogage."
   }, {
     "title" : "Margaret Hamilton",
     "date" : 1936,
-    "description" : "Ingenieure logicielle pour le programme Apollo.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/6/63/Margaret_Hamilton_1989.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/6/63/Margaret_Hamilton_1989.jpg",
+    "description" : "Ingenieure logicielle pour le programme Apollo."
   }, {
     "title" : "Frances Allen",
     "date" : 1932,
-    "description" : "Pionniere de l optimisation des compilateurs.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/1/15/Allen_mg_2528-3750K-b.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/1/15/Allen_mg_2528-3750K-b.jpg",
+    "description" : "Pionniere de l optimisation des compilateurs."
   }, {
     "title" : "Karen Sparck Jones",
     "date" : 1935,
-    "description" : "Specialiste du traitement automatique du langage naturel.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/a/af/Karen_Sp%C3%A4rck.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/a/af/Karen_Sp%C3%A4rck.jpg",
+    "description" : "Specialiste du traitement automatique du langage naturel."
   }, {
     "title" : "Barbara Liskov",
     "date" : 1939,
-    "description" : "Createur du principe de substitution de Liskov en programmation objet.",
-    "imageUrl" : "https://www.fib.upc.edu/retroinformatica/exposicio/pioneres/liskov/mainColumnParagraphs/0/image/Barbara%20Liskov%20-%20cartell%20(264%20px).png"
+    "imageUrl" : "https://www.fib.upc.edu/retroinformatica/exposicio/pioneres/liskov/mainColumnParagraphs/0/image/Barbara%20Liskov%20-%20cartell%20(264%20px).png",
+    "description" : "Createur du principe de substitution de Liskov en programmation objet."
   }, {
     "title" : "Jean Sammet",
     "date" : 1928,
-    "description" : "A participe au developpement du langage COBOL.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean_Sammet_UMD_1979.jpg/250px-Jean_Sammet_UMD_1979.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean_Sammet_UMD_1979.jpg/250px-Jean_Sammet_UMD_1979.jpg",
+    "description" : "A participe au developpement du langage COBOL."
   }, {
     "title" : "Radia Perlman",
     "date" : 1951,
-    "description" : "Inventrice du protocole Spanning Tree.",
-    "imageUrl" : "https://d2skn5554g4boz.cloudfront.net/content/images/533/larger/3396732_1.jpg"
+    "imageUrl" : "https://d2skn5554g4boz.cloudfront.net/content/images/533/larger/3396732_1.jpg",
+    "description" : "Inventrice du protocole Spanning Tree."
   }, {
     "title" : "Sophie Wilson",
     "date" : 1957,
-    "description" : "Conceptrice de l architecture ARM.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/b/b3/Sophie_Wilson.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/b/b3/Sophie_Wilson.jpg",
+    "description" : "Conceptrice de l architecture ARM."
   }, {
     "title" : "Shafi Goldwasser",
     "date" : 1958,
-    "description" : "Recompensee pour ses contributions a la cryptographie.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shafi_Goldwasser.JPG/330px-Shafi_Goldwasser.JPG"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shafi_Goldwasser.JPG/330px-Shafi_Goldwasser.JPG",
+    "description" : "Recompensee pour ses contributions a la cryptographie."
   } ]
 }, {
   "title" : "Frameworks JavaScript",
@@ -137,53 +137,53 @@
   "cards" : [ {
     "title" : "React",
     "date" : 2013,
-    "description" : "Bibliotheque JavaScript developpee par Facebook pour construire des interfaces utilisateur.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
+    "description" : "Bibliotheque JavaScript developpee par Facebook pour construire des interfaces utilisateur."
   }, {
     "title" : "Angular",
     "date" : 2010,
-    "description" : "Framework JavaScript developpe par Google.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGakkUEbXyfann4M16v9CV-sTa915cUOdh9g&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGakkUEbXyfann4M16v9CV-sTa915cUOdh9g&s",
+    "description" : "Framework JavaScript developpe par Google."
   }, {
     "title" : "Vue.js",
     "date" : 2014,
-    "description" : "Framework progressif pour construire des interfaces utilisateur.",
-    "imageUrl" : "https://avatars.githubusercontent.com/u/24529465?s=200&v=4"
+    "imageUrl" : "https://avatars.githubusercontent.com/u/24529465?s=200&v=4",
+    "description" : "Framework progressif pour construire des interfaces utilisateur."
   }, {
     "title" : "jQuery",
     "date" : 2006,
-    "description" : "Bibliotheque JavaScript qui simplifie la manipulation du DOM.",
-    "imageUrl" : "https://www.ideematic.com/wp-content/uploads/2018/02/jquery.png"
+    "imageUrl" : "https://www.ideematic.com/wp-content/uploads/2018/02/jquery.png",
+    "description" : "Bibliotheque JavaScript qui simplifie la manipulation du DOM."
   }, {
     "title" : "Ember.js",
     "date" : 2011,
-    "description" : "Framework JavaScript base sur le modele MVVM.",
-    "imageUrl" : "https://zdrojak.cz/wp-content/uploads/2014/03/Ember.js_Logo_and_Mascot.png"
+    "imageUrl" : "https://zdrojak.cz/wp-content/uploads/2014/03/Ember.js_Logo_and_Mascot.png",
+    "description" : "Framework JavaScript base sur le modele MVVM."
   }, {
     "title" : "Backbone.js",
     "date" : 2010,
-    "description" : "Framework leger base sur le modele MVC.",
-    "imageUrl" : "https://www.ideematic.com/wp-content/uploads/2018/02/backbone-js.png"
+    "imageUrl" : "https://www.ideematic.com/wp-content/uploads/2018/02/backbone-js.png",
+    "description" : "Framework leger base sur le modele MVC."
   }, {
     "title" : "Svelte",
     "date" : 2016,
-    "description" : "Framework JavaScript moderne, compile les composants au moment du build.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShr26yCXQuZOJPVAHmnYyatoDrrGf6YF0_Vw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShr26yCXQuZOJPVAHmnYyatoDrrGf6YF0_Vw&s",
+    "description" : "Framework JavaScript moderne, compile les composants au moment du build."
   }, {
     "title" : "Next.js",
     "date" : 2016,
-    "description" : "Framework base sur React pour le rendu cote serveur.",
-    "imageUrl" : "https://i.pinimg.com/736x/4a/2b/e7/4a2be73b1e2efb44355436c40bf496dd.jpg"
+    "imageUrl" : "https://i.pinimg.com/736x/4a/2b/e7/4a2be73b1e2efb44355436c40bf496dd.jpg",
+    "description" : "Framework base sur React pour le rendu cote serveur."
   }, {
     "title" : "Nuxt.js",
     "date" : 2016,
-    "description" : "Framework base sur Vue.js pour le rendu cote serveur.",
-    "imageUrl" : "https://kinsta.com/wp-content/uploads/2022/05/nuxt-js-logo.jpeg"
+    "imageUrl" : "https://kinsta.com/wp-content/uploads/2022/05/nuxt-js-logo.jpeg",
+    "description" : "Framework base sur Vue.js pour le rendu cote serveur."
   }, {
     "title" : "Meteor",
     "date" : 2012,
-    "description" : "Framework full-stack JavaScript.",
-    "imageUrl" : "https://docs.meteor.com/logo.png"
+    "imageUrl" : "https://docs.meteor.com/logo.png",
+    "description" : "Framework full-stack JavaScript."
   } ]
 }, {
   "title" : "Jeux FromSoftware",
@@ -191,53 +191,53 @@
   "cards" : [ {
     "title" : "Demon's Souls",
     "date" : 2009,
-    "description" : "Le jeu fondateur du genre Souls-like, proposant un univers sombre et une difficulté exigeante.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLCoFCC9LuBW-Aff4I6n5-AyD1fP3-6NdOMA&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLCoFCC9LuBW-Aff4I6n5-AyD1fP3-6NdOMA&s",
+    "description" : "Le jeu fondateur du genre Souls-like, proposant un univers sombre et une difficulté exigeante."
   }, {
     "title" : "Dark Souls",
     "date" : 2011,
-    "description" : "Un RPG d'action emblématique, connu pour son monde interconnecté et son gameplay punitif.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg",
+    "description" : "Un RPG d'action emblématique, connu pour son monde interconnecté et son gameplay punitif."
   }, {
     "title" : "Dark Souls II",
     "date" : 2014,
-    "description" : "Suite spirituelle avec de nouveaux environnements et une mécanique de jeu affinée.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtDJixVDYQw-XXRNiyfjHfJ2O93_N5TT6oQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtDJixVDYQw-XXRNiyfjHfJ2O93_N5TT6oQ&s",
+    "description" : "Suite spirituelle avec de nouveaux environnements et une mécanique de jeu affinée."
   }, {
     "title" : "Dark Souls III",
     "date" : 2016,
-    "description" : "Conclusion épique de la trilogie, combinant les meilleurs éléments des précédents opus.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUM5-CTSIjL4s3GcLufIXpu3pjg945jDNRw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUM5-CTSIjL4s3GcLufIXpu3pjg945jDNRw&s",
+    "description" : "Conclusion épique de la trilogie, combinant les meilleurs éléments des précédents opus."
   }, {
     "title" : "Bloodborne",
     "date" : 2015,
-    "description" : "Un jeu d'action-RPG gothique, exclusif à la PS4, avec un gameplay rapide et brutal.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    "description" : "Un jeu d'action-RPG gothique, exclusif à la PS4, avec un gameplay rapide et brutal."
   }, {
     "title" : "Sekiro: Shadows Die Twice",
     "date" : 2019,
-    "description" : "Un jeu d'action-aventure se déroulant dans un Japon féodal fantastique, mettant l'accent sur la furtivité et les combats au sabre.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDcwWnWDvjQLBVSUmc17Hhzu9ya35DK1xBRg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDcwWnWDvjQLBVSUmc17Hhzu9ya35DK1xBRg&s",
+    "description" : "Un jeu d'action-aventure se déroulant dans un Japon féodal fantastique, mettant l'accent sur la furtivité et les combats au sabre."
   }, {
     "title" : "Elden Ring",
     "date" : 2022,
-    "description" : "Une collaboration entre Hidetaka Miyazaki et George R. R. Martin, offrant un monde ouvert vaste et immersif.",
-    "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg"
+    "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+    "description" : "Une collaboration entre Hidetaka Miyazaki et George R. R. Martin, offrant un monde ouvert vaste et immersif."
   }, {
     "title" : "Armored Core VI: Fires of Rubicon",
     "date" : 2023,
-    "description" : "Retour de la série de mechas, avec des combats intenses et une personnalisation poussée des machines.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT08LNJIISR7py49MuJORMe4UasSpkcEHICg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT08LNJIISR7py49MuJORMe4UasSpkcEHICg&s",
+    "description" : "Retour de la série de mechas, avec des combats intenses et une personnalisation poussée des machines."
   }, {
     "title" : "Elden Ring: Nightreign",
     "date" : 2025,
-    "description" : "Spin-off multijoueur coopératif dans l'univers d'Elden Ring, axé sur la survie et l'exploration.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3l7MZ4oibvXKF3gnEun6Sww48QBjLzv0oFA&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3l7MZ4oibvXKF3gnEun6Sww48QBjLzv0oFA&s",
+    "description" : "Spin-off multijoueur coopératif dans l'univers d'Elden Ring, axé sur la survie et l'exploration."
   }, {
     "title" : "The Duskbloods",
     "date" : 2026,
-    "description" : "Jeu multijoueur PvPvE exclusif à la Nintendo Switch 2, introduisant de nouvelles mécaniques et un univers inédit.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStwvHqPPMHFiPw2Y9603fEA0eAPUqg28g0-Q&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStwvHqPPMHFiPw2Y9603fEA0eAPUqg28g0-Q&s",
+    "description" : "Jeu multijoueur PvPvE exclusif à la Nintendo Switch 2, introduisant de nouvelles mécaniques et un univers inédit."
   } ]
 }, {
   "title" : "Personnage Smash Bros",
@@ -245,218 +245,218 @@
   "cards" : [ {
     "title" : "Mario",
     "date" : 1981,
-    "description" : "Le plombier emblématique de Nintendo, héros du Royaume Champignon.",
-    "imageUrl" : "https://static.wikia.nocookie.net/smashbros/images/a/af/Art_Mario_Ultimate.png/revision/latest?cb=20180615173226&path-prefix=fr"
+    "imageUrl" : "https://static.wikia.nocookie.net/smashbros/images/a/af/Art_Mario_Ultimate.png/revision/latest?cb=20180615173226&path-prefix=fr",
+    "description" : "Le plombier emblématique de Nintendo, héros du Royaume Champignon."
   }, {
     "title" : "Luigi",
     "date" : 1983,
-    "description" : "Le frère de Mario, connu pour son saut élevé et sa personnalité nerveuse.",
-    "imageUrl" : "https://static.wikia.nocookie.net/smashbros/images/9/95/Art_Luigi_Ultimate.png/revision/latest?cb=20180615173227&path-prefix=fr"
+    "imageUrl" : "https://static.wikia.nocookie.net/smashbros/images/9/95/Art_Luigi_Ultimate.png/revision/latest?cb=20180615173227&path-prefix=fr",
+    "description" : "Le frère de Mario, connu pour son saut élevé et sa personnalité nerveuse."
   }, {
     "title" : "Peach",
     "date" : 1985,
-    "description" : "La princesse du Royaume Champignon, avec des attaques aériennes sophistiquées.",
-    "imageUrl" : "https://static.wikia.nocookie.net/ssb/images/0/07/Peach_-_Super_Smash_Bros._Ultimate.png/revision/latest?cb=20180612205005"
+    "imageUrl" : "https://static.wikia.nocookie.net/ssb/images/0/07/Peach_-_Super_Smash_Bros._Ultimate.png/revision/latest?cb=20180612205005",
+    "description" : "La princesse du Royaume Champignon, avec des attaques aériennes sophistiquées."
   }, {
     "title" : "Bowser",
     "date" : 1985,
-    "description" : "Le roi des Koopas, fort et lent, mais très puissant.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Ihpii8g0kVsx_aJJdy8FTWj85ZMbAqXpyA&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Ihpii8g0kVsx_aJJdy8FTWj85ZMbAqXpyA&s",
+    "description" : "Le roi des Koopas, fort et lent, mais très puissant."
   }, {
     "title" : "Yoshi",
     "date" : 1990,
-    "description" : "Dinosaure vert avec des attaques de langue et un excellent jeu aérien.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpVn1y_XGjQhUpK-jflSaKEVLxxjtWWAYmlw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpVn1y_XGjQhUpK-jflSaKEVLxxjtWWAYmlw&s",
+    "description" : "Dinosaure vert avec des attaques de langue et un excellent jeu aérien."
   }, {
     "title" : "Donkey Kong",
     "date" : 1981,
-    "description" : "Gorille puissant avec des attaques lourdes et une grande force brute.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8woKGTI9_9ijKoVQzdcyWDN3Ysh1SocLJbg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8woKGTI9_9ijKoVQzdcyWDN3Ysh1SocLJbg&s",
+    "description" : "Gorille puissant avec des attaques lourdes et une grande force brute."
   }, {
     "title" : "Diddy Kong",
     "date" : 1994,
-    "description" : "Compagnon agile de Donkey Kong, excellent en vitesse et combo.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqOvvQQO-XZfMLVflPHD2aecNIRg_LjLz8ew&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqOvvQQO-XZfMLVflPHD2aecNIRg_LjLz8ew&s",
+    "description" : "Compagnon agile de Donkey Kong, excellent en vitesse et combo."
   }, {
     "title" : "Link",
     "date" : 1986,
-    "description" : "Héros de Zelda, utilisant épée, arcs, et objets magiques.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_urWdFK_hxOGLV8napHZX4q6sWqeav0va1g&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_urWdFK_hxOGLV8napHZX4q6sWqeav0va1g&s",
+    "description" : "Héros de Zelda, utilisant épée, arcs, et objets magiques."
   }, {
     "title" : "Zelda",
     "date" : 1986,
-    "description" : "Princesse dotée de pouvoirs magiques, avec des attaques de lumière et téléportation.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2_mj6dJ71LgaTg66vEaaSmvZ46nVjH83Rww&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2_mj6dJ71LgaTg66vEaaSmvZ46nVjH83Rww&s",
+    "description" : "Princesse dotée de pouvoirs magiques, avec des attaques de lumière et téléportation."
   }, {
     "title" : "Ganondorf",
     "date" : 1998,
-    "description" : "Puissant sorcier et roi des Gerudos, à la force brute immense.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-_L1O6UkVWt2GPsfs99WcrvhnHc1stZEfyQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-_L1O6UkVWt2GPsfs99WcrvhnHc1stZEfyQ&s",
+    "description" : "Puissant sorcier et roi des Gerudos, à la force brute immense."
   }, {
     "title" : "Samus",
     "date" : 1986,
-    "description" : "Chasseuse de primes équipée d'une armure puissante et d'un canon à énergie.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3J9fPq2ZwwBrAXpcqWfsret7UyE-MqKcVNw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3J9fPq2ZwwBrAXpcqWfsret7UyE-MqKcVNw&s",
+    "description" : "Chasseuse de primes équipée d'une armure puissante et d'un canon à énergie."
   }, {
     "title" : "Dark Samus",
     "date" : 2010,
-    "description" : "Clone sombre et énergétique de Samus, avec des attaques similaires et rapides.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEzcOG95R2gr4Qy9wZPCsW3fxoweZDF3KTyg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEzcOG95R2gr4Qy9wZPCsW3fxoweZDF3KTyg&s",
+    "description" : "Clone sombre et énergétique de Samus, avec des attaques similaires et rapides."
   }, {
     "title" : "Pit",
     "date" : 2008,
-    "description" : "Ange guerrier armé d'un arc et d'épées, agile en combat aérien.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tnKW4JVcKOjfwFngWl1oRdeWYbJCtTOQmw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tnKW4JVcKOjfwFngWl1oRdeWYbJCtTOQmw&s",
+    "description" : "Ange guerrier armé d'un arc et d'épées, agile en combat aérien."
   }, {
     "title" : "Palutena",
     "date" : 2012,
-    "description" : "Déesse de la lumière, capable de manipuler des attaques magiques puissantes.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdI1G9hU7R_FFMZo6fLLX2Yhh6-dTqbNOtag&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdI1G9hU7R_FFMZo6fLLX2Yhh6-dTqbNOtag&s",
+    "description" : "Déesse de la lumière, capable de manipuler des attaques magiques puissantes."
   }, {
     "title" : "Marth",
     "date" : 1990,
-    "description" : "Chevalier légendaire maniant une épée avec grande maîtrise et rapidité.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaQBYfyrn57ahYN4znMBmNKLaRotkNhTW_Q&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaQBYfyrn57ahYN4znMBmNKLaRotkNhTW_Q&s",
+    "description" : "Chevalier légendaire maniant une épée avec grande maîtrise et rapidité."
   }, {
     "title" : "Ike",
     "date" : 2005,
-    "description" : "Guerrier fort et robuste, avec des attaques puissantes au sol et en l'air.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFrb4DDyXOJ__00i3yhsTVtgi-UR42PdwPg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFrb4DDyXOJ__00i3yhsTVtgi-UR42PdwPg&s",
+    "description" : "Guerrier fort et robuste, avec des attaques puissantes au sol et en l'air."
   }, {
     "title" : "Robin",
     "date" : 2012,
-    "description" : "Stratège utilisant magie et épée, avec des attaques tactiques variées.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0jTSwXmb96M3VmfnYOzNE0CESbQcOJYN-Mg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0jTSwXmb96M3VmfnYOzNE0CESbQcOJYN-Mg&s",
+    "description" : "Stratège utilisant magie et épée, avec des attaques tactiques variées."
   }, {
     "title" : "Lucina",
     "date" : 2013,
-    "description" : "Guerrière agile, maniant l'épée avec rapidité et précision.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdlm5bMRpsE_xwX89TGWTdR1GIui1wDVE4Q&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdlm5bMRpsE_xwX89TGWTdR1GIui1wDVE4Q&s",
+    "description" : "Guerrière agile, maniant l'épée avec rapidité et précision."
   }, {
     "title" : "Ness",
     "date" : 1994,
-    "description" : "Jeune garçon avec pouvoirs psychiques, connu pour son attaque PK Thunder.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp2kV4IFsNdesA-PFDWSiiAxGvwKq3V-YP9A&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp2kV4IFsNdesA-PFDWSiiAxGvwKq3V-YP9A&s",
+    "description" : "Jeune garçon avec pouvoirs psychiques, connu pour son attaque PK Thunder."
   }, {
     "title" : "Captain Falcon",
     "date" : 1990,
-    "description" : "Pilote de course et combattant rapide, célèbre pour son coup Falcon Punch.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi6EG27sEjNnti2x3y0GsaJZrpPBgIshJZ5Q&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi6EG27sEjNnti2x3y0GsaJZrpPBgIshJZ5Q&s",
+    "description" : "Pilote de course et combattant rapide, célèbre pour son coup Falcon Punch."
   }, {
     "title" : "Fox",
     "date" : 1983,
-    "description" : "Pilote et combattant agile, expert en tir laser et en vitesse.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQ8DdvAX-b-ePjz8aNzvmOdGfdLESgA3VGg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQ8DdvAX-b-ePjz8aNzvmOdGfdLESgA3VGg&s",
+    "description" : "Pilote et combattant agile, expert en tir laser et en vitesse."
   }, {
     "title" : "Falco",
     "date" : 1997,
-    "description" : "Faucon pilote rapide et agressif, spécialiste des attaques aériennes.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Df9vXJOES44cVHYiBM5O7tVEL4K3kielog&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Df9vXJOES44cVHYiBM5O7tVEL4K3kielog&s",
+    "description" : "Faucon pilote rapide et agressif, spécialiste des attaques aériennes."
   }, {
     "title" : "Pikachu",
     "date" : 1996,
-    "description" : "Petit Pokémon électrique, rapide et avec des attaques électrisantes.",
-    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "description" : "Petit Pokémon électrique, rapide et avec des attaques électrisantes."
   }, {
     "title" : "Jigglypuff",
     "date" : 1996,
-    "description" : "Pokémon ballon capable d'endormir ses adversaires avec son chant.",
-    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "description" : "Pokémon ballon capable d'endormir ses adversaires avec son chant."
   }, {
     "title" : "Kirby",
     "date" : 1992,
-    "description" : "Petite boule rose capable d'aspirer et copier les pouvoirs ennemis.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKbEZ6avWBANb1YMV7eY59ZL6TSgZUg9YvXQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKbEZ6avWBANb1YMV7eY59ZL6TSgZUg9YvXQ&s",
+    "description" : "Petite boule rose capable d'aspirer et copier les pouvoirs ennemis."
   }, {
     "title" : "King Dedede",
     "date" : 1992,
-    "description" : "Roi pingouin puissant avec un grand maillet comme arme.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM9o3amgMPiHe1_2T5REA-HzIvdTGt5i-bdw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM9o3amgMPiHe1_2T5REA-HzIvdTGt5i-bdw&s",
+    "description" : "Roi pingouin puissant avec un grand maillet comme arme."
   }, {
     "title" : "Meta Knight",
     "date" : 1992,
-    "description" : "Chevalier masqué maniant une épée, très rapide et agile.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImMMi2MbJcp3X2-YqxGWLc86xNx5bZD3gAQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImMMi2MbJcp3X2-YqxGWLc86xNx5bZD3gAQ&s",
+    "description" : "Chevalier masqué maniant une épée, très rapide et agile."
   }, {
     "title" : "Zero Suit Samus",
     "date" : 2007,
-    "description" : "Samus sans son armure, rapide avec un fouet énergétique.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTth4d17qSgULR1CLarzI3DPfPGM57HjW_gmQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTth4d17qSgULR1CLarzI3DPfPGM57HjW_gmQ&s",
+    "description" : "Samus sans son armure, rapide avec un fouet énergétique."
   }, {
     "title" : "Greninja",
     "date" : 2014,
-    "description" : "Pokémon ninja agile, expert en attaques rapides et combos.",
-    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
+    "description" : "Pokémon ninja agile, expert en attaques rapides et combos."
   }, {
     "title" : "Mii Brawler",
     "date" : 2014,
-    "description" : "Personnage personnalisable avec un style de combat de pugiliste.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqQ-cS7yL4GWf09hdNELqrEOEdaHQodNNJtA&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqQ-cS7yL4GWf09hdNELqrEOEdaHQodNNJtA&s",
+    "description" : "Personnage personnalisable avec un style de combat de pugiliste."
   }, {
     "title" : "Mii Swordfighter",
     "date" : 2014,
-    "description" : "Personnage personnalisable utilisant une épée.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPGgsMg2a5Lb-ZxlCME9ib0g4BDRlbqkbjFQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPGgsMg2a5Lb-ZxlCME9ib0g4BDRlbqkbjFQ&s",
+    "description" : "Personnage personnalisable utilisant une épée."
   }, {
     "title" : "Mii Gunner",
     "date" : 2014,
-    "description" : "Personnage personnalisable utilisant des armes à distance.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrjg-EkYcDwMkK8vZj3MGXcekNMGlN1dGphw&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrjg-EkYcDwMkK8vZj3MGXcekNMGlN1dGphw&s",
+    "description" : "Personnage personnalisable utilisant des armes à distance."
   }, {
     "title" : "Little Mac",
     "date" : 2009,
-    "description" : "Boxeur de rue spécialisé dans les attaques puissantes au sol.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwVmGEY1gIw0e7EhHSatCSi6iFoErXiy8Neg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwVmGEY1gIw0e7EhHSatCSi6iFoErXiy8Neg&s",
+    "description" : "Boxeur de rue spécialisé dans les attaques puissantes au sol."
   }, {
     "title" : "King K. Rool",
     "date" : 1994,
-    "description" : "Méchant crocodile de Donkey Kong, puissant avec un grand maillet.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx2llaKNdLCe-apmuClhlxoTwBGIVnci2OEQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx2llaKNdLCe-apmuClhlxoTwBGIVnci2OEQ&s",
+    "description" : "Méchant crocodile de Donkey Kong, puissant avec un grand maillet."
   }, {
     "title" : "Marie",
     "date" : 2001,
-    "description" : "Assistante municipale avec des attaques originales et rapides.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQw_WXEXiSnbkgjBb-BoTnRzbtqeYTcjZNg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQw_WXEXiSnbkgjBb-BoTnRzbtqeYTcjZNg&s",
+    "description" : "Assistante municipale avec des attaques originales et rapides."
   }, {
     "title" : "Incineroar",
     "date" : 2016,
-    "description" : "Pokémon combattant félin avec des attaques de lutte.",
-    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+    "imageUrl" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
+    "description" : "Pokémon combattant félin avec des attaques de lutte."
   }, {
     "title" : "Ridley",
     "date" : 1986,
-    "description" : "Dragon ailé ennemi de Samus, puissant et rapide.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCqAUJ7aVjj_jMkr7Efz5R9AXgSgz58FFMg&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCqAUJ7aVjj_jMkr7Efz5R9AXgSgz58FFMg&s",
+    "description" : "Dragon ailé ennemi de Samus, puissant et rapide."
   }, {
     "title" : "Simon",
     "date" : 1986,
-    "description" : "Chasseur de vampires maniant fouet et armes variées.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqdhEoHq2S_HVG_tEA0XqXVsPw5yp8Vqv2A&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqdhEoHq2S_HVG_tEA0XqXVsPw5yp8Vqv2A&s",
+    "description" : "Chasseur de vampires maniant fouet et armes variées."
   }, {
     "title" : "Richter",
     "date" : 1993,
-    "description" : "Chasseur de vampires, similaire à Simon avec quelques différences.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzrd4tuiEdSKeXSBPrEZ6XbZ45vv80L5bzqQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzrd4tuiEdSKeXSBPrEZ6XbZ45vv80L5bzqQ&s",
+    "description" : "Chasseur de vampires, similaire à Simon avec quelques différences."
   }, {
     "title" : "Joker",
     "date" : 2016,
-    "description" : "Héros du jeu Persona 5, agile avec un style de combat technique.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_MaKSA4DAB8sIobd97zDjER1VUPZnsGJsQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_MaKSA4DAB8sIobd97zDjER1VUPZnsGJsQ&s",
+    "description" : "Héros du jeu Persona 5, agile avec un style de combat technique."
   }, {
     "title" : "Hero",
     "date" : 1986,
-    "description" : "Protagoniste de Dragon Quest avec magie et épée.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_RglJZ3JTE88MaqBeddOT82kOeRPD8sA0g&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_RglJZ3JTE88MaqBeddOT82kOeRPD8sA0g&s",
+    "description" : "Protagoniste de Dragon Quest avec magie et épée."
   }, {
     "title" : "Banjo & Kazooie",
     "date" : 1998,
-    "description" : "Duo de chasseurs d'aventure avec attaques uniques et combos.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFZUxIAGKJeEmLLJ5Opp_XlJZUJYoPTBetQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFZUxIAGKJeEmLLJ5Opp_XlJZUJYoPTBetQ&s",
+    "description" : "Duo de chasseurs d'aventure avec attaques uniques et combos."
   }, {
     "title" : "Terry",
     "date" : 1991,
-    "description" : "Combattant de la série Fatal Fury, spécialiste des combos et techniques puissantes.",
-    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROpzPF07-4dZJVFVYKi5c73ERII7IiK5JIXQ&s"
+    "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROpzPF07-4dZJVFVYKi5c73ERII7IiK5JIXQ&s",
+    "description" : "Combattant de la série Fatal Fury, spécialiste des combos et techniques puissantes."
   } ]
 }, {
   "title" : "Personnages de League of Legends",
@@ -464,856 +464,852 @@
   "cards" : [ {
     "title" : "Aatrox",
     "date" : 2013,
-    "description" : "Guerrier déchu enfermé dans une épée, ayant pris possession de son manieur pour semer la destruction.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/266/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/266/splash-art",
+    "description" : "Guerrier déchu enfermé dans une épée, ayant pris possession de son manieur pour semer la destruction."
   }, {
     "title" : "Ahri",
     "date" : 2011,
-    "description" : "Renarde à neuf queues, charme ses ennemis avec sa magie.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/103/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/103/splash-art",
+    "description" : "Renarde à neuf queues, charme ses ennemis avec sa magie."
   }, {
     "title" : "Akali",
     "date" : 2010,
-    "description" : "Assassine silencieuse du Kinkou, maniant les ombres pour éliminer ses cibles.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/84/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/84/splash-art",
+    "description" : "Assassine silencieuse du Kinkou, maniant les ombres pour éliminer ses cibles."
   }, {
     "title" : "Akshan",
     "date" : 2021,
-    "description" : "Sentinelle rebelle, maniant un grappin et un pistolet pour venger les injustices.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/166/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/166/splash-art",
+    "description" : "Sentinelle rebelle, maniant un grappin et un pistolet pour venger les injustices."
   }, {
     "title" : "Alistar",
     "date" : 2009,
-    "description" : "Minotaure puissant, défenseur des opprimés, utilisant sa force brute pour protéger ses alliés.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/12/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/12/splash-art",
+    "description" : "Minotaure puissant, défenseur des opprimés, utilisant sa force brute pour protéger ses alliés."
   }, {
     "title" : "Ambessa Medarda",
     "date" : 2021,
-    "description" : "Générale impitoyable et stratège de Noxus, mère de Mel Medarda, Ambessa incarne le pouvoir, la discipline militaire et l'ambition politique.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/fe4125e7d5135486c5bb6941641e53316fb90c59-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/fe4125e7d5135486c5bb6941641e53316fb90c59-1920x1080.jpg",
+    "description" : "Générale impitoyable et stratège de Noxus, mère de Mel Medarda, Ambessa incarne le pouvoir, la discipline militaire et l'ambition politique."
   }, {
     "title" : "Amumu",
     "date" : 2009,
-    "description" : "Momie solitaire à la recherche d'amis, ses larmes infligent la douleur à ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/32/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/32/splash-art",
+    "description" : "Momie solitaire à la recherche d'amis, ses larmes infligent la douleur à ses ennemis."
   }, {
     "title" : "Anivia",
     "date" : 2009,
-    "description" : "Phénix de glace, gardienne ancestrale de Freljord, renaissant éternellement pour protéger la terre.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/34/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/34/splash-art",
+    "description" : "Phénix de glace, gardienne ancestrale de Freljord, renaissant éternellement pour protéger la terre."
   }, {
     "title" : "Annie",
     "date" : 2009,
-    "description" : "Enfant prodige de la magie noire, accompagnée de son ours en peluche enflammé, Tibbers.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/1/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/1/splash-art",
+    "description" : "Enfant prodige de la magie noire, accompagnée de son ours en peluche enflammé, Tibbers."
   }, {
     "title" : "Aphelios",
     "date" : 2019,
-    "description" : "Tireur silencieux maniant cinq armes lunaires, guidé par la voix de sa sœur Alune.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/523/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/523/splash-art",
+    "description" : "Tireur silencieux maniant cinq armes lunaires, guidé par la voix de sa sœur Alune."
   }, {
     "title" : "Ashe",
     "date" : 2009,
-    "description" : "Archère de givre, chef de guerre de Freljord, utilisant ses flèches glacées pour unifier son peuple.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/22/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/22/splash-art",
+    "description" : "Archère de givre, chef de guerre de Freljord, utilisant ses flèches glacées pour unifier son peuple."
   }, {
     "title" : "Aurelion Sol",
     "date" : 2016,
-    "description" : "Dragon cosmique, créateur d'étoiles, enchaîné par les mortels qu'il méprise.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/136/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/136/splash-art",
+    "description" : "Dragon cosmique, créateur d'étoiles, enchaîné par les mortels qu'il méprise."
   }, {
     "title" : "Aurora",
     "date" : 2024,
-    "description" : "Sorcière entre les mondes, manipulant les frontières entre réalité et illusion.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/40ab29f8f4bc653f3c7bd6e904e85fb51225f52d-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/40ab29f8f4bc653f3c7bd6e904e85fb51225f52d-1920x1080.jpg",
+    "description" : "Sorcière entre les mondes, manipulant les frontières entre réalité et illusion."
   }, {
     "title" : "Azir",
     "date" : 2014,
-    "description" : "Empereur ressuscité de Shurima, commandant des soldats de sable pour reconquérir son empire.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/268/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/268/splash-art",
+    "description" : "Empereur ressuscité de Shurima, commandant des soldats de sable pour reconquérir son empire."
   }, {
     "title" : "Bard",
     "date" : 2015,
-    "description" : "Gardien itinérant des reliques, voyageant entre les étoiles pour maintenir l'équilibre.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/432/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/432/splash-art",
+    "description" : "Gardien itinérant des reliques, voyageant entre les étoiles pour maintenir l'équilibre."
   }, {
     "title" : "Bel'Veth",
     "date" : 2022,
-    "description" : "Impératrice du Néant, une entité en constante évolution cherchant à consommer Runeterra.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/200/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/200/splash-art",
+    "description" : "Impératrice du Néant, une entité en constante évolution cherchant à consommer Runeterra."
   }, {
     "title" : "Blitzcrank",
     "date" : 2009,
-    "description" : "Golem mécanique de Zaun, doté d'un bras extensible pour attraper ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/53/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/53/splash-art",
+    "description" : "Golem mécanique de Zaun, doté d'un bras extensible pour attraper ses ennemis."
   }, {
     "title" : "Brand",
     "date" : 2011,
-    "description" : "Esprit consumé par les flammes, cherchant à embraser le monde entier.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/63/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/63/splash-art",
+    "description" : "Esprit consumé par les flammes, cherchant à embraser le monde entier."
   }, {
     "title" : "Braum",
     "date" : 2014,
-    "description" : "Héros au grand cœur de Freljord, utilisant son bouclier pour protéger les innocents.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/201/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/201/splash-art",
+    "description" : "Héros au grand cœur de Freljord, utilisant son bouclier pour protéger les innocents."
   }, {
     "title" : "Briar",
     "date" : 2023,
-    "description" : "Créature affamée du Néant, incapable de contrôler sa soif de sang.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/731da6d8643ac159faee6cb308706bbf25230083-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/731da6d8643ac159faee6cb308706bbf25230083-1920x1080.jpg",
+    "description" : "Créature affamée du Néant, incapable de contrôler sa soif de sang."
   }, {
     "title" : "Caitlyn",
     "date" : 2011,
-    "description" : "Shérif de Piltover, tireuse d'élite traquant les criminels avec précision.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/51/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/51/splash-art",
+    "description" : "Shérif de Piltover, tireuse d'élite traquant les criminels avec précision."
   }, {
     "title" : "Camille",
     "date" : 2016,
-    "description" : "Agent de Piltover aux lames tranchantes, alliant grâce et létalité.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/164/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/164/splash-art",
+    "description" : "Agent de Piltover aux lames tranchantes, alliant grâce et létalité."
   }, {
     "title" : "Cassiopeia",
     "date" : 2010,
-    "description" : "Séductrice transformée en créature serpentine, utilisant son regard pétrifiant.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/69/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/69/splash-art",
+    "description" : "Séductrice transformée en créature serpentine, utilisant son regard pétrifiant."
   }, {
     "title" : "Cho'Gath",
     "date" : 2009,
-    "description" : "Monstre du Néant, grandissant en taille à chaque victime dévorée.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/31/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/31/splash-art",
+    "description" : "Monstre du Néant, grandissant en taille à chaque victime dévorée."
   }, {
     "title" : "Corki",
     "date" : 2009,
-    "description" : "Yordle pilote excentrique, bombardant ses ennemis depuis son avion.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/5bf51137ae5bdf98b83e2e791f6c288d6121470d-1215x717.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/5bf51137ae5bdf98b83e2e791f6c288d6121470d-1215x717.jpg",
+    "description" : "Yordle pilote excentrique, bombardant ses ennemis depuis son avion."
   }, {
     "title" : "Darius",
     "date" : 2012,
-    "description" : "Général impitoyable de Noxus, Darius est le bras armé de l'empire, abattant ses ennemis avec une hache gigantesque.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/122/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/122/splash-art",
+    "description" : "Général impitoyable de Noxus, Darius est le bras armé de l'empire, abattant ses ennemis avec une hache gigantesque."
   }, {
     "title" : "Diana",
     "date" : 2012,
-    "description" : "Guerrière des Lunari, Diana manie une lame en croissant de lune, incarnant la puissance de l'astre nocturne.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/131/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/131/splash-art",
+    "description" : "Guerrière des Lunari, Diana manie une lame en croissant de lune, incarnant la puissance de l'astre nocturne."
   }, {
     "title" : "Dr. Mundo",
     "date" : 2009,
-    "description" : "Monstre violemment instable de Zaun, Dr. Mundo utilise sa propre santé pour infliger des dégâts massifs.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/36/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/36/splash-art",
+    "description" : "Monstre violemment instable de Zaun, Dr. Mundo utilise sa propre santé pour infliger des dégâts massifs."
   }, {
     "title" : "Draven",
     "date" : 2012,
-    "description" : "Glorieux exécuteur de Noxus, Draven est célèbre pour ses lancers de haches spectaculaires et son ego surdimensionné.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/119/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/119/splash-art",
+    "description" : "Glorieux exécuteur de Noxus, Draven est célèbre pour ses lancers de haches spectaculaires et son ego surdimensionné."
   }, {
     "title" : "Ekko",
     "date" : 2015,
-    "description" : "Jeune prodige de Zaun, Ekko manipule le temps pour corriger ses erreurs et déjouer ses adversaires.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/245/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/245/splash-art",
+    "description" : "Jeune prodige de Zaun, Ekko manipule le temps pour corriger ses erreurs et déjouer ses adversaires."
   }, {
     "title" : "Elise",
     "date" : 2012,
-    "description" : "Reine arachnide de la Toile noire, Elise attire ses proies dans ses filets avant de les dévorer.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/60/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/60/splash-art",
+    "description" : "Reine arachnide de la Toile noire, Elise attire ses proies dans ses filets avant de les dévorer."
   }, {
     "title" : "Evelynn",
     "date" : 2009,
-    "description" : "Démonne séduisante, Evelynn chasse dans l'ombre, infligeant des souffrances indicibles à ses victimes.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/28/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/28/splash-art",
+    "description" : "Démonne séduisante, Evelynn chasse dans l'ombre, infligeant des souffrances indicibles à ses victimes."
   }, {
     "title" : "Ezreal",
     "date" : 2010,
-    "description" : "Explorateur intrépide, Ezreal utilise un gantelet magique pour lancer des projectiles d'énergie pure.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/81/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/81/splash-art",
+    "description" : "Explorateur intrépide, Ezreal utilise un gantelet magique pour lancer des projectiles d'énergie pure."
   }, {
     "title" : "Fiddlesticks",
     "date" : 2009,
-    "description" : "Épouvantail cauchemardesque, Fiddlesticks sème la terreur en surgissant des ténèbres pour moissonner les âmes.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/9/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/9/splash-art",
+    "description" : "Épouvantail cauchemardesque, Fiddlesticks sème la terreur en surgissant des ténèbres pour moissonner les âmes."
   }, {
     "title" : "Fiora",
     "date" : 2012,
-    "description" : "Duelliste d'élite de Demacia, Fiora défie quiconque remet en question son honneur avec une lame rapide et précise.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/114/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/114/splash-art",
+    "description" : "Duelliste d'élite de Demacia, Fiora défie quiconque remet en question son honneur avec une lame rapide et précise."
   }, {
     "title" : "Fizz",
     "date" : 2011,
-    "description" : "Créature espiègle des profondeurs, Fizz bondit hors de l'eau pour harceler ses ennemis avec son trident.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/105/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/105/splash-art",
+    "description" : "Créature espiègle des profondeurs, Fizz bondit hors de l'eau pour harceler ses ennemis avec son trident."
   }, {
     "title" : "Galio",
     "date" : 2010,
-    "description" : "Colosse de pierre vivant, Galio protège Demacia en absorbant la magie ennemie pour la retourner contre eux.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/3/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/3/splash-art",
+    "description" : "Colosse de pierre vivant, Galio protège Demacia en absorbant la magie ennemie pour la retourner contre eux."
   }, {
     "title" : "Gangplank",
     "date" : 2009,
-    "description" : "Capitaine pirate impitoyable, Gangplank utilise des barils explosifs et son pistolet pour dominer les mers.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/41/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/41/splash-art",
+    "description" : "Capitaine pirate impitoyable, Gangplank utilise des barils explosifs et son pistolet pour dominer les mers."
   }, {
     "title" : "Garen",
     "date" : 2010,
-    "description" : "Soldat exemplaire de Demacia, Garen tourne en tourbillon pour trancher ses ennemis avec son épée massive.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/86/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/86/splash-art",
+    "description" : "Soldat exemplaire de Demacia, Garen tourne en tourbillon pour trancher ses ennemis avec son épée massive."
   }, {
     "title" : "Gnar",
     "date" : 2014,
-    "description" : "Créature préhistorique, Gnar alterne entre une forme mignonne et une bête colossale enragée.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/150/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/150/splash-art",
+    "description" : "Créature préhistorique, Gnar alterne entre une forme mignonne et une bête colossale enragée."
   }, {
     "title" : "Gragas",
     "date" : 2010,
-    "description" : "Brasseur jovial, Gragas utilise ses tonneaux explosifs et son ventre pour semer le chaos sur le champ de bataille.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/79/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/79/splash-art",
+    "description" : "Brasseur jovial, Gragas utilise ses tonneaux explosifs et son ventre pour semer le chaos sur le champ de bataille."
   }, {
     "title" : "Graves",
     "date" : 2011,
-    "description" : "Hors-la-loi armé d'un fusil à pompe, Graves avance en fumée pour éliminer ses cibles à courte portée.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/104/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/104/splash-art",
+    "description" : "Hors-la-loi armé d'un fusil à pompe, Graves avance en fumée pour éliminer ses cibles à courte portée."
   }, {
     "title" : "Gwen",
     "date" : 2021,
-    "description" : "Poupée enchantée, Gwen manie des ciseaux géants pour découper la réalité et ses adversaires.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/887/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/887/splash-art",
+    "description" : "Poupée enchantée, Gwen manie des ciseaux géants pour découper la réalité et ses adversaires."
   }, {
     "title" : "Hecarim",
     "date" : 2012,
-    "description" : "Cavalier spectral, Hecarim charge ses ennemis avec une force inarrêtable, semant la terreur sur son passage.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/120/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/120/splash-art",
+    "description" : "Cavalier spectral, Hecarim charge ses ennemis avec une force inarrêtable, semant la terreur sur son passage."
   }, {
     "title" : "Heimerdinger",
     "date" : 2009,
-    "description" : "Inventeur yordle excentrique, Heimerdinger déploie des tourelles pour contrôler le champ de bataille.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/74/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/74/splash-art",
+    "description" : "Inventeur yordle excentrique, Heimerdinger déploie des tourelles pour contrôler le champ de bataille."
   }, {
     "title" : "Hwei",
     "date" : 2023,
-    "description" : "Artiste mystérieux, Hwei peint des illusions qui prennent vie pour confondre et attaquer ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/950/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/950/splash-art",
+    "description" : "Artiste mystérieux, Hwei peint des illusions qui prennent vie pour confondre et attaquer ses ennemis."
   }, {
     "title" : "Illaoi",
     "date" : 2015,
-    "description" : "Grande prêtresse du Kraken, Illaoi invoque des tentacules pour juger l'esprit de ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/420/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/420/splash-art",
+    "description" : "Grande prêtresse du Kraken, Illaoi invoque des tentacules pour juger l'esprit de ses ennemis."
   }, {
     "title" : "Irelia",
     "date" : 2010,
-    "description" : "Maîtresse de la danse des lames, Irelia canalise sa grâce pour découper ses ennemis avec précision.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/39/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/39/splash-art",
+    "description" : "Maîtresse de la danse des lames, Irelia canalise sa grâce pour découper ses ennemis avec précision."
   }, {
     "title" : "Ivern",
     "date" : 2016,
-    "description" : "Ami de la forêt, Ivern protège la nature en libérant les monstres de la jungle et en aidant ses alliés.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/427/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/427/splash-art",
+    "description" : "Ami de la forêt, Ivern protège la nature en libérant les monstres de la jungle et en aidant ses alliés."
   }, {
     "title" : "Janna",
     "date" : 2009,
-    "description" : "Gardienne des vents, Janna utilise les éléments pour protéger et soigner ses alliés au cœur des tempêtes.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/40/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/40/splash-art",
+    "description" : "Gardienne des vents, Janna utilise les éléments pour protéger et soigner ses alliés au cœur des tempêtes."
   }, {
     "title" : "Jarvan IV",
     "date" : 2011,
-    "description" : "Prince de Demacia, Jarvan IV inspire ses troupes et piège ses ennemis dans une arène de pierre.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/59/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/59/splash-art",
+    "description" : "Prince de Demacia, Jarvan IV inspire ses troupes et piège ses ennemis dans une arène de pierre."
   }, {
     "title" : "Jax",
     "date" : 2009,
-    "description" : "Maître d'armes inégalé, Jax manie un simple lampadaire pour défier tous ceux qui osent l'affronter.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/24/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/24/splash-art",
+    "description" : "Maître d'armes inégalé, Jax manie un simple lampadaire pour défier tous ceux qui osent l'affronter."
   }, {
     "title" : "Jayce",
     "date" : 2012,
-    "description" : "Inventeur brillant, Jayce alterne entre marteau et canon pour écraser ses ennemis avec puissance et technologie.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/126/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/126/splash-art",
+    "description" : "Inventeur brillant, Jayce alterne entre marteau et canon pour écraser ses ennemis avec puissance et technologie."
   }, {
     "title" : "Jhin",
     "date" : 2016,
-    "description" : "Tueur perfectionniste, Jhin transforme chaque meurtre en œuvre d'art grâce à son fusil à quatre coups.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/202/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/202/splash-art",
+    "description" : "Tueur perfectionniste, Jhin transforme chaque meurtre en œuvre d'art grâce à son fusil à quatre coups."
   }, {
     "title" : "Jinx",
     "date" : 2013,
-    "description" : "Criminelle instable, Jinx sème le chaos avec son arsenal explosif et son rire contagieux.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/222/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/222/splash-art",
+    "description" : "Criminelle instable, Jinx sème le chaos avec son arsenal explosif et son rire contagieux."
   }, {
     "title" : "K'Santé",
     "date" : 2022,
-    "description" : "Guerrier de Nazumah, K'Santé affronte des monstres colossaux grâce à son armure transformable.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/897/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/897/splash-art",
+    "description" : "Guerrier de Nazumah, K'Santé affronte des monstres colossaux grâce à son armure transformable."
   }, {
     "title" : "Kai'Sa",
     "date" : 2018,
-    "description" : "Fille du Vide, Kai'Sa a survécu en symbiose avec une carapace extra-dimensionnelle, devenant une chasseuse implacable.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/145/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/145/splash-art",
+    "description" : "Fille du Vide, Kai'Sa a survécu en symbiose avec une carapace extra-dimensionnelle, devenant une chasseuse implacable."
   }, {
     "title" : "Kalista",
     "date" : 2014,
-    "description" : "Esprit de vengeance, Kalista exécute ceux qui trahissent par des lances spectrales mortelles.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/429/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/429/splash-art",
+    "description" : "Esprit de vengeance, Kalista exécute ceux qui trahissent par des lances spectrales mortelles."
   }, {
     "title" : "Karma",
     "date" : 2011,
-    "description" : "Guide spirituelle d'Ionia, Karma manie une puissance ancestrale pour défendre l'équilibre.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/43/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/43/splash-art",
+    "description" : "Guide spirituelle d'Ionia, Karma manie une puissance ancestrale pour défendre l'équilibre."
   }, {
     "title" : "Karthus",
     "date" : 2009,
-    "description" : "Héraut de la mort, Karthus chante la fin de toutes choses, libérant une symphonie de destruction.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/30/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/30/splash-art",
+    "description" : "Héraut de la mort, Karthus chante la fin de toutes choses, libérant une symphonie de destruction."
   }, {
     "title" : "Kassadin",
     "date" : 2009,
-    "description" : "Chasseur du Néant, Kassadin utilise la magie du Vide pour bondir et traquer ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/38/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/38/splash-art",
+    "description" : "Chasseur du Néant, Kassadin utilise la magie du Vide pour bondir et traquer ses ennemis."
   }, {
     "title" : "Katarina",
     "date" : 2009,
-    "description" : "Assassine de Noxus, Katarina exécute ses ennemis avec une pluie de dagues mortelles.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/55/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/55/splash-art",
+    "description" : "Assassine de Noxus, Katarina exécute ses ennemis avec une pluie de dagues mortelles."
   }, {
     "title" : "Kayle",
     "date" : 2009,
-    "description" : "Juge céleste, Kayle s'élève au combat, mêlant attaques à distance et puissance divine.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/10/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/10/splash-art",
+    "description" : "Juge céleste, Kayle s'élève au combat, mêlant attaques à distance et puissance divine."
   }, {
     "title" : "Kayn",
     "date" : 2017,
-    "description" : "Porteur de la faux Rhaast, Kayn lutte entre lumière et ténèbres pour atteindre son potentiel ultime.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/141/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/141/splash-art",
+    "description" : "Porteur de la faux Rhaast, Kayn lutte entre lumière et ténèbres pour atteindre son potentiel ultime."
   }, {
     "title" : "Kennen",
     "date" : 2010,
-    "description" : "Ninja yordle de l'orage, Kennen électrocute ses ennemis en un éclair.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/85/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/85/splash-art",
+    "description" : "Ninja yordle de l'orage, Kennen électrocute ses ennemis en un éclair."
   }, {
     "title" : "Kha'Zix",
     "date" : 2012,
-    "description" : "Prédateur du Néant, Kha'Zix évolue en fonction de ses proies, devenant plus fort à chaque mise à mort.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/121/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/121/splash-art",
+    "description" : "Prédateur du Néant, Kha'Zix évolue en fonction de ses proies, devenant plus fort à chaque mise à mort."
   }, {
     "title" : "Kindred",
     "date" : 2015,
-    "description" : "Incarnation de la mort, Kindred traque les vivants avec grâce, séparant ceux qui fuient de ceux qui l'acceptent.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/203/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/203/splash-art",
+    "description" : "Incarnation de la mort, Kindred traque les vivants avec grâce, séparant ceux qui fuient de ceux qui l'acceptent."
   }, {
     "title" : "Kled",
     "date" : 2016,
-    "description" : "Yordle hargneux, Kled charge au combat sur son fidèle destrier Skaarl, incarnant la rage de Noxus.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/240/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/240/splash-art",
+    "description" : "Yordle hargneux, Kled charge au combat sur son fidèle destrier Skaarl, incarnant la rage de Noxus."
   }, {
     "title" : "Kog'Maw",
     "date" : 2010,
-    "description" : "Créature du Néant, Kog'Maw projette de l'acide et se sacrifie dans une ultime explosion.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/96/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/96/splash-art",
+    "description" : "Créature du Néant, Kog'Maw projette de l'acide et se sacrifie dans une ultime explosion."
   }, {
     "title" : "LeBlanc",
     "date" : 2010,
-    "description" : "Manipulatrice insaisissable, LeBlanc duplique ses sorts et trompe ses ennemis par l'illusion.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/7/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/7/splash-art",
+    "description" : "Manipulatrice insaisissable, LeBlanc duplique ses sorts et trompe ses ennemis par l'illusion."
   }, {
     "title" : "Lee Sin",
     "date" : 2011,
-    "description" : "Moine aveugle, Lee Sin frappe avec précision et discipline, utilisant ses poings pour la justice.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/64/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/64/splash-art",
+    "description" : "Moine aveugle, Lee Sin frappe avec précision et discipline, utilisant ses poings pour la justice."
   }, {
     "title" : "Leona",
     "date" : 2011,
-    "description" : "Guerrière solaire, Leona protège ses alliés avec son bouclier et aveugle ses ennemis de lumière divine.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/89/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/89/splash-art",
+    "description" : "Guerrière solaire, Leona protège ses alliés avec son bouclier et aveugle ses ennemis de lumière divine."
   }, {
     "title" : "Lillia",
     "date" : 2020,
-    "description" : "Faune timide issue des rêves, Lillia erre à travers la forêt en quête des songes perdus des mortels.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/876/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/876/splash-art",
+    "description" : "Faune timide issue des rêves, Lillia erre à travers la forêt en quête des songes perdus des mortels."
   }, {
     "title" : "Lissandra",
     "date" : 2013,
-    "description" : "Sœur de glace, Lissandra utilise ses pouvoirs pour emprisonner et geler ses adversaires dans une prison glaciale.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/127/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/127/splash-art",
+    "description" : "Sœur de glace, Lissandra utilise ses pouvoirs pour emprisonner et geler ses adversaires dans une prison glaciale."
   }, {
     "title" : "Lucian",
     "date" : 2013,
-    "description" : "Pistolero de la lumière, Lucian chasse les morts-vivants avec ses pistolets bénis et une détermination inébranlable.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/236/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/236/splash-art",
+    "description" : "Pistolero de la lumière, Lucian chasse les morts-vivants avec ses pistolets bénis et une détermination inébranlable."
   }, {
     "title" : "Lulu",
     "date" : 2012,
-    "description" : "Fée excentrique, Lulu transforme ses ennemis et protège ses alliés avec la magie féerique et son compagnon Pix.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/117/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/117/splash-art",
+    "description" : "Fée excentrique, Lulu transforme ses ennemis et protège ses alliés avec la magie féerique et son compagnon Pix."
   }, {
     "title" : "Lux",
     "date" : 2010,
-    "description" : "Magicienne lumineuse de Demacia, Lux utilise des éclats de lumière pour contrôler et anéantir ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/99/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/99/splash-art",
+    "description" : "Magicienne lumineuse de Demacia, Lux utilise des éclats de lumière pour contrôler et anéantir ses ennemis."
   }, {
     "title" : "Malphite",
     "date" : 2009,
-    "description" : "Colosse de pierre, Malphite est un fragment vivant du monolithe, écrasant tout sur son passage.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/54/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/54/splash-art",
+    "description" : "Colosse de pierre, Malphite est un fragment vivant du monolithe, écrasant tout sur son passage."
   }, {
     "title" : "Malzahar",
     "date" : 2010,
-    "description" : "Prophète du Néant, Malzahar invoque des créatures démoniaques pour dévaster ses ennemis et plonger ses adversaires dans la folie.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/90/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/90/splash-art",
+    "description" : "Prophète du Néant, Malzahar invoque des créatures démoniaques pour dévaster ses ennemis et plonger ses adversaires dans la folie."
   }, {
     "title" : "Maokai",
     "date" : 2011,
-    "description" : "Esprit ancien de la forêt, Maokai utilise la magie de la nature pour étouffer ses ennemis et protéger les terres sacrées de Runeterra.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/57/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/57/splash-art",
+    "description" : "Esprit ancien de la forêt, Maokai utilise la magie de la nature pour étouffer ses ennemis et protéger les terres sacrées de Runeterra."
   }, {
     "title" : "Master Yi",
     "date" : 2009,
-    "description" : "Maître des arts martiaux, Master Yi manie l'épée avec une vitesse incroyable et une concentration hors du commun.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/11/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/11/splash-art",
+    "description" : "Maître des arts martiaux, Master Yi manie l'épée avec une vitesse incroyable et une concentration hors du commun."
   }, {
     "title" : "Mel Medarda",
     "date" : 2021,
-    "description" : "Conseillère de Piltover, Mel est une politicienne brillante, charismatique et manipulatrice. Fille d'Ambessa, elle privilégie l'art, la stratégie et le pouvoir subtil.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/4de677b45fdaaa7874a030c6c8865e9ffdb6a0ba-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/4de677b45fdaaa7874a030c6c8865e9ffdb6a0ba-1920x1080.jpg",
+    "description" : "Conseillère de Piltover, Mel est une politicienne brillante, charismatique et manipulatrice. Fille d'Ambessa, elle privilégie l'art, la stratégie et le pouvoir subtil."
   }, {
     "title" : "Milio",
     "date" : 2023,
-    "description" : "Jeune prodige de Ixtal, Milio manie le feu de manière bienveillante pour soigner et protéger. Toujours optimiste, il accompagne ses alliés avec ses flammes apaisantes.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/dd4af82c030747102e172282ad11f694c4a52562-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/dd4af82c030747102e172282ad11f694c4a52562-1920x1080.jpg",
+    "description" : "Jeune prodige de Ixtal, Milio manie le feu de manière bienveillante pour soigner et protéger. Toujours optimiste, il accompagne ses alliés avec ses flammes apaisantes."
   }, {
     "title" : "Miss Fortune",
     "date" : 2010,
-    "description" : "Capitaine pirate charismatique, Miss Fortune tire ses ennemis avec précision et charme tout autant ses alliés que ses adversaires.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/21/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/21/splash-art",
+    "description" : "Capitaine pirate charismatique, Miss Fortune tire ses ennemis avec précision et charme tout autant ses alliés que ses adversaires."
   }, {
     "title" : "Mordekaiser",
     "date" : 2010,
-    "description" : "Seigneur de la mort métallique, Mordekaiser domine le champ de bataille avec sa masse d'acier et sa magie nécromantique.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/82/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/82/splash-art",
+    "description" : "Seigneur de la mort métallique, Mordekaiser domine le champ de bataille avec sa masse d'acier et sa magie nécromantique."
   }, {
     "title" : "Morgana",
     "date" : 2009,
-    "description" : "Sorcière déchue, Morgana combine magie noire et protection divine pour défendre les opprimés et punir les injustes.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/25/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/25/splash-art",
+    "description" : "Sorcière déchue, Morgana combine magie noire et protection divine pour défendre les opprimés et punir les injustes."
   }, {
     "title" : "Naafiri",
     "date" : 2023,
-    "description" : "Incarnant l'instinct et la meute, Naafiri est une assassin darkin qui combat aux côtés de ses congénères canins. Sauvage et implacable, elle traque ses proies sans relâche.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/b366641d047f674c3f13569f830acccf65b081e3-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/b366641d047f674c3f13569f830acccf65b081e3-1920x1080.jpg",
+    "description" : "Incarnant l'instinct et la meute, Naafiri est une assassin darkin qui combat aux côtés de ses congénères canins. Sauvage et implacable, elle traque ses proies sans relâche."
   }, {
     "title" : "Nami",
     "date" : 2012,
-    "description" : "Vague vivante, Nami contrôle les flots pour soigner ses alliés et submerger ses ennemis avec la puissance de l'océan.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/267/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/267/splash-art",
+    "description" : "Vague vivante, Nami contrôle les flots pour soigner ses alliés et submerger ses ennemis avec la puissance de l'océan."
   }, {
     "title" : "Nasus",
     "date" : 2009,
-    "description" : "Gardien des sables, Nasus est un être ancien qui use de sa force colossale et de son savoir millénaire pour protéger Shurima.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/75/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/75/splash-art",
+    "description" : "Gardien des sables, Nasus est un être ancien qui use de sa force colossale et de son savoir millénaire pour protéger Shurima."
   }, {
     "title" : "Nautilus",
     "date" : 2012,
-    "description" : "Colosse des profondeurs, Nautilus utilise son ancre gigantesque pour immobiliser ses ennemis et dominer les batailles sous-marines.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/111/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/111/splash-art",
+    "description" : "Colosse des profondeurs, Nautilus utilise son ancre gigantesque pour immobiliser ses ennemis et dominer les batailles sous-marines."
   }, {
     "title" : "Neeko",
     "date" : 2018,
-    "description" : "Chimère curieuse, Neeko peut prendre l'apparence de ses alliés et dérouter ses ennemis avec ses illusions colorées.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/518/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/518/splash-art",
+    "description" : "Chimère curieuse, Neeko peut prendre l'apparence de ses alliés et dérouter ses ennemis avec ses illusions colorées."
   }, {
     "title" : "Nidalee",
     "date" : 2009,
-    "description" : "Chasseresse sauvage, Nidalee se transforme en cougar pour traquer ses proies avec agilité et précision.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/76/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/76/splash-art",
+    "description" : "Chasseresse sauvage, Nidalee se transforme en cougar pour traquer ses proies avec agilité et précision."
   }, {
     "title" : "Nilah",
     "date" : 2022,
-    "description" : "Guerrière joyeuse venue des terres lointaines de Kathkan, Nilah manie une lame d'eau démoniaque et combat avec grâce. Elle puise son pouvoir d'un démon de joie qu'elle a scellé en elle.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/0b63dba67e71846815d071f4cc0b55188bc7651e-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/0b63dba67e71846815d071f4cc0b55188bc7651e-1920x1080.jpg",
+    "description" : "Guerrière joyeuse venue des terres lointaines de Kathkan, Nilah manie une lame d'eau démoniaque et combat avec grâce. Elle puise son pouvoir d'un démon de joie qu'elle a scellé en elle."
   }, {
     "title" : "Nocturne",
     "date" : 2011,
-    "description" : "Terreur incarnée, Nocturne plonge ses ennemis dans les ténèbres les plus profondes et les attaque sans pitié.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/56/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/56/splash-art",
+    "description" : "Terreur incarnée, Nocturne plonge ses ennemis dans les ténèbres les plus profondes et les attaque sans pitié."
   }, {
     "title" : "Nunu & Willump",
     "date" : 2011,
-    "description" : "Duo inséparable, Nunu et son yéti Willump contrôlent la glace pour geler leurs adversaires et protéger Freljord.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/20/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/20/splash-art",
+    "description" : "Duo inséparable, Nunu et son yéti Willump contrôlent la glace pour geler leurs adversaires et protéger Freljord."
   }, {
     "title" : "Olaf",
     "date" : 2010,
-    "description" : "Guerrier berserk, Olaf ignore la mort et se jette dans la mêlée avec une rage dévastatrice et une hache imposante.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/2/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/2/splash-art",
+    "description" : "Guerrier berserk, Olaf ignore la mort et se jette dans la mêlée avec une rage dévastatrice et une hache imposante."
   }, {
     "title" : "Orianna",
     "date" : 2011,
-    "description" : "Automate sophistiqué, Orianna manipule une sphère mécanique pour contrôler le champ de bataille avec précision et grâce.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/61/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/61/splash-art",
+    "description" : "Automate sophistiqué, Orianna manipule une sphère mécanique pour contrôler le champ de bataille avec précision et grâce."
   }, {
     "title" : "Ornn",
     "date" : 2017,
-    "description" : "Forgeron demi-dieu de Freljord, Ornn crée des armes légendaires tout en semant le chaos sur le champ de bataille.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/516/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/516/splash-art",
+    "description" : "Forgeron demi-dieu de Freljord, Ornn crée des armes légendaires tout en semant le chaos sur le champ de bataille."
   }, {
     "title" : "Pantheon",
     "date" : 2010,
-    "description" : "Guerrier spartiate, Pantheon combat avec une lance et un bouclier, incarnant la détermination et la bravoure indomptable.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/80/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/80/splash-art",
+    "description" : "Guerrier spartiate, Pantheon combat avec une lance et un bouclier, incarnant la détermination et la bravoure indomptable."
   }, {
     "title" : "Poppy",
     "date" : 2010,
-    "description" : "Gardienne du marteau, Poppy est une guerrière déterminée qui protège l'héritage de Demacia avec courage et force.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/78/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/78/splash-art",
+    "description" : "Gardienne du marteau, Poppy est une guerrière déterminée qui protège l'héritage de Demacia avec courage et force."
   }, {
     "title" : "Pyke",
     "date" : 2018,
-    "description" : "Assassin des eaux sombres, Pyke traque ses victimes avec une rapidité mortelle et une soif de vengeance inextinguible.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/555/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/555/splash-art",
+    "description" : "Assassin des eaux sombres, Pyke traque ses victimes avec une rapidité mortelle et une soif de vengeance inextinguible."
   }, {
     "title" : "Qiyana",
     "date" : 2019,
-    "description" : "Impératrice des éléments, Qiyana maîtrise la magie élémentaire pour dominer la jungle et écraser ses adversaires.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/246/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/246/splash-art",
+    "description" : "Impératrice des éléments, Qiyana maîtrise la magie élémentaire pour dominer la jungle et écraser ses adversaires."
   }, {
     "title" : "Quinn",
     "date" : 2013,
-    "description" : "Éclaireuse de Demacia, Quinn et son aigle Valor traquent leurs ennemis avec précision et rapidité sur le champ de bataille.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/133/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/133/splash-art",
+    "description" : "Éclaireuse de Demacia, Quinn et son aigle Valor traquent leurs ennemis avec précision et rapidité sur le champ de bataille."
   }, {
     "title" : "Rakan",
     "date" : 2017,
-    "description" : "Charmeur flamboyant, Rakan danse entre alliés et ennemis pour protéger et surprendre avec style et grâce.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/497/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/497/splash-art",
+    "description" : "Charmeur flamboyant, Rakan danse entre alliés et ennemis pour protéger et surprendre avec style et grâce."
   }, {
     "title" : "Rammus",
     "date" : 2009,
-    "description" : "Armure vivante, Rammus roule à toute vitesse pour percuter ses adversaires avec une carapace impénétrable.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/33/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/33/splash-art",
+    "description" : "Armure vivante, Rammus roule à toute vitesse pour percuter ses adversaires avec une carapace impénétrable."
   }, {
     "title" : "Rek'Sai",
     "date" : 2014,
-    "description" : "Créature du désert, Rek'Sai creuse sous terre pour surprendre ses proies et semer la terreur avec sa férocité sauvage.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/421/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/421/splash-art",
+    "description" : "Créature du désert, Rek'Sai creuse sous terre pour surprendre ses proies et semer la terreur avec sa férocité sauvage."
   }, {
     "title" : "Rell",
     "date" : 2020,
-    "description" : "Chevalière de fer, Rell manipule le métal pour défendre ses alliés et écraser ses ennemis avec puissance et détermination.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/526/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/526/splash-art",
+    "description" : "Chevalière de fer, Rell manipule le métal pour défendre ses alliés et écraser ses ennemis avec puissance et détermination."
   }, {
     "title" : "Renata Glasc",
     "date" : 2022,
-    "description" : "Alchimiste de Zaun et magnat de l'industrie, Renata Glasc dirige son empire avec une élégance impitoyable. Elle utilise des produits chimiques et la manipulation pour soumettre ses ennemis à sa volonté.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/74f48d016cce3f38f35d3c165ac2847c22a643ef-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/74f48d016cce3f38f35d3c165ac2847c22a643ef-1920x1080.jpg",
+    "description" : "Alchimiste de Zaun et magnat de l'industrie, Renata Glasc dirige son empire avec une élégance impitoyable. Elle utilise des produits chimiques et la manipulation pour soumettre ses ennemis à sa volonté."
   }, {
     "title" : "Renekton",
     "date" : 2011,
-    "description" : "Crocdile furieux, Renekton déchaîne sa rage pour tailler en pièces ses adversaires dans l'arène de la justice.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/58/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/58/splash-art",
+    "description" : "Crocdile furieux, Renekton déchaîne sa rage pour tailler en pièces ses adversaires dans l'arène de la justice."
   }, {
     "title" : "Rengar",
     "date" : 2012,
-    "description" : "Chasseur féroce, Rengar traque ses proies dans la jungle et fond sur elles avec une sauvagerie sans égale.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/107/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/107/splash-art",
+    "description" : "Chasseur féroce, Rengar traque ses proies dans la jungle et fond sur elles avec une sauvagerie sans égale."
   }, {
     "title" : "Riven",
     "date" : 2011,
-    "description" : "Ex-soldate brisée, Riven cherche la rédemption à travers le combat et la maîtrise de son épée brisée.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/92/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/92/splash-art",
+    "description" : "Ex-soldate brisée, Riven cherche la rédemption à travers le combat et la maîtrise de son épée brisée."
   }, {
     "title" : "Rumble",
     "date" : 2012,
-    "description" : "Inventeur yordle, Rumble utilise son mécha pour écraser ses ennemis avec des flammes et des missiles puissants.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/68/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/68/splash-art",
+    "description" : "Inventeur yordle, Rumble utilise son mécha pour écraser ses ennemis avec des flammes et des missiles puissants."
   }, {
     "title" : "Ryze",
     "date" : 2009,
-    "description" : "Mage puissant, Ryze voyage à travers Runeterra à la recherche de runes anciennes pour empêcher une catastrophe imminente.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/13/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/13/splash-art",
+    "description" : "Mage puissant, Ryze voyage à travers Runeterra à la recherche de runes anciennes pour empêcher une catastrophe imminente."
   }, {
     "title" : "Samira",
     "date" : 2020,
-    "description" : "Combattante audacieuse, Samira enchante la mêlée avec ses acrobaties et son habileté avec les armes à feu.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/360/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/360/splash-art",
+    "description" : "Combattante audacieuse, Samira enchante la mêlée avec ses acrobaties et son habileté avec les armes à feu."
   }, {
     "title" : "Sejuani",
     "date" : 2012,
-    "description" : "Reine guerrière de Freljord, Sejuani mène ses troupes au combat avec son sang-froid et la puissance de son sanglier de guerre.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/113/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/113/splash-art",
+    "description" : "Reine guerrière de Freljord, Sejuani mène ses troupes au combat avec son sang-froid et la puissance de son sanglier de guerre."
   }, {
     "title" : "Senna",
     "date" : 2019,
-    "description" : "Chasseuse de l'ombre, Senna manie une arme sacrée pour libérer les âmes perdues et combattre les ténèbres.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/235/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/235/splash-art",
+    "description" : "Chasseuse de l'ombre, Senna manie une arme sacrée pour libérer les âmes perdues et combattre les ténèbres."
   }, {
     "title" : "Seraphine",
     "date" : 2020,
-    "description" : "Chanteuse aux pouvoirs musicaux, Seraphine inspire ses alliés avec ses mélodies envoûtantes et repousse ses ennemis par le son.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/147/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/147/splash-art",
+    "description" : "Chanteuse aux pouvoirs musicaux, Seraphine inspire ses alliés avec ses mélodies envoûtantes et repousse ses ennemis par le son."
   }, {
     "title" : "Sett",
     "date" : 2020,
-    "description" : "Chef de gang, Sett combine force brute et technique de combat pour dominer les arènes de la rue.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/875/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/875/splash-art",
+    "description" : "Chef de gang, Sett combine force brute et technique de combat pour dominer les arènes de la rue."
   }, {
     "title" : "Shaco",
     "date" : 2009,
-    "description" : "Joueur de tours macabre, Shaco sème le chaos avec ses illusions et attaques surprises terrifiantes.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/35/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/35/splash-art",
+    "description" : "Joueur de tours macabre, Shaco sème le chaos avec ses illusions et attaques surprises terrifiantes."
   }, {
     "title" : "Shen",
     "date" : 2010,
-    "description" : "Maître de l'ombre, Shen équilibre la lumière et les ténèbres pour protéger l'équilibre du monde.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/98/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/98/splash-art",
+    "description" : "Maître de l'ombre, Shen équilibre la lumière et les ténèbres pour protéger l'équilibre du monde."
   }, {
     "title" : "Shyvana",
     "date" : 2011,
-    "description" : "Mi-dragon, mi-guerrière, Shyvana brûle d'un feu intérieur qui lui donne force et férocité au combat.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/102/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/102/splash-art",
+    "description" : "Mi-dragon, mi-guerrière, Shyvana brûle d'un feu intérieur qui lui donne force et férocité au combat."
   }, {
     "title" : "Singed",
     "date" : 2009,
-    "description" : "Alchimiste fou, Singed répand des poisons et crée le chaos avec sa folie imprévisible.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/27/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/27/splash-art",
+    "description" : "Alchimiste fou, Singed répand des poisons et crée le chaos avec sa folie imprévisible."
   }, {
     "title" : "Sion",
     "date" : 2011,
-    "description" : "Colosse mort-vivant, Sion ravive la guerre avec sa force surhumaine et sa rage inextinguible.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/14/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/14/splash-art",
+    "description" : "Colosse mort-vivant, Sion ravive la guerre avec sa force surhumaine et sa rage inextinguible."
   }, {
     "title" : "Sivir",
     "date" : 2009,
-    "description" : "Chasseresse de trésors, Sivir manie une lame vibrante pour défendre sa tribu et traquer ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/15/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/15/splash-art",
+    "description" : "Chasseresse de trésors, Sivir manie une lame vibrante pour défendre sa tribu et traquer ses ennemis."
   }, {
     "title" : "Skarner",
     "date" : 2011,
-    "description" : "Scorpion cristallin, Skarner protège son territoire avec férocité et la puissance de ses pinces acérées.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/72/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/72/splash-art",
+    "description" : "Scorpion cristallin, Skarner protège son territoire avec férocité et la puissance de ses pinces acérées."
   }, {
     "title" : "Smolder",
     "date" : 2024,
-    "description" : "Jeune dragon de la famille impériale camavorienne, Smolder apprend à devenir un vrai dragon sous la surveillance de sa mère. Curieux, espiègle et redoutable malgré son âge.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/8da8f09d7aa765b162684c9970850af4fb8e3b95-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/8da8f09d7aa765b162684c9970850af4fb8e3b95-1920x1080.jpg",
+    "description" : "Jeune dragon de la famille impériale camavorienne, Smolder apprend à devenir un vrai dragon sous la surveillance de sa mère. Curieux, espiègle et redoutable malgré son âge."
   }, {
     "title" : "Sona",
     "date" : 2010,
-    "description" : "Muse mélodieuse, Sona utilise ses cordes musicales pour soigner et inspirer ses alliés sur le champ de bataille.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/37/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/37/splash-art",
+    "description" : "Muse mélodieuse, Sona utilise ses cordes musicales pour soigner et inspirer ses alliés sur le champ de bataille."
   }, {
     "title" : "Soraka",
     "date" : 2009,
-    "description" : "Guérisseuse céleste, Soraka apporte soin et espoir à ses alliés grâce à sa magie stellaire bienveillante.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/16/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/16/splash-art",
+    "description" : "Guérisseuse céleste, Soraka apporte soin et espoir à ses alliés grâce à sa magie stellaire bienveillante."
   }, {
     "title" : "Swain",
     "date" : 2011,
-    "description" : "Stratège impitoyable, Swain manipule la magie noire et le pouvoir politique pour contrôler Noxus.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/50/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/50/splash-art",
+    "description" : "Stratège impitoyable, Swain manipule la magie noire et le pouvoir politique pour contrôler Noxus."
   }, {
     "title" : "Sylas",
     "date" : 2019,
-    "description" : "Révolté mage, Sylas s'empare des pouvoirs des autres pour renverser les tyrans de Demacia.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/517/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/517/splash-art",
+    "description" : "Révolté mage, Sylas s'empare des pouvoirs des autres pour renverser les tyrans de Demacia."
   }, {
     "title" : "Syndra",
     "date" : 2012,
-    "description" : "Mage puissante, Syndra manipule l'énergie brute avec une force destructrice dévastatrice.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/134/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/134/splash-art",
+    "description" : "Mage puissante, Syndra manipule l'énergie brute avec une force destructrice dévastatrice."
   }, {
     "title" : "Tahm Kench",
     "date" : 2012,
-    "description" : "Démon fluvial, Tahm Kench dévore tout sur son passage avec son appétit insatiable et ses pouvoirs magiques.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/223/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/223/splash-art",
+    "description" : "Démon fluvial, Tahm Kench dévore tout sur son passage avec son appétit insatiable et ses pouvoirs magiques."
   }, {
     "title" : "Taliyah",
     "date" : 2016,
-    "description" : "Tisseuse de pierre, Taliyah contrôle la terre et façonne le champ de bataille à sa guise avec ses pouvoirs magiques.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/163/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/163/splash-art",
+    "description" : "Tisseuse de pierre, Taliyah contrôle la terre et façonne le champ de bataille à sa guise avec ses pouvoirs magiques."
   }, {
     "title" : "Talon",
     "date" : 2011,
-    "description" : "Assassin silencieux, Talon traque ses cibles avec une précision mortelle et une rapidité fulgurante.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/91/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/91/splash-art",
+    "description" : "Assassin silencieux, Talon traque ses cibles avec une précision mortelle et une rapidité fulgurante."
   }, {
     "title" : "Taric",
     "date" : 2009,
-    "description" : "Protecteur céleste, Taric invoque la puissance des étoiles pour défendre ses alliés et soigner leurs blessures.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/44/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/44/splash-art",
+    "description" : "Protecteur céleste, Taric invoque la puissance des étoiles pour défendre ses alliés et soigner leurs blessures."
   }, {
     "title" : "Teemo",
     "date" : 2009,
-    "description" : "Éclaireur yordle, Teemo utilise ses pièges et sa ruse pour dominer le terrain et harceler ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/17/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/17/splash-art",
+    "description" : "Éclaireur yordle, Teemo utilise ses pièges et sa ruse pour dominer le terrain et harceler ses ennemis."
   }, {
     "title" : "Thresh",
     "date" : 2013,
-    "description" : "Gardien des chaînes, Thresh capture les âmes de ses ennemis et les torture éternellement dans les ténèbres.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/412/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/412/splash-art",
+    "description" : "Gardien des chaînes, Thresh capture les âmes de ses ennemis et les torture éternellement dans les ténèbres."
   }, {
     "title" : "Tristana",
     "date" : 2009,
-    "description" : "Canonnière yordle, Tristana fait feu avec sa gigantesque arme pour défendre Piltover et repousser les ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/18/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/18/splash-art",
+    "description" : "Canonnière yordle, Tristana fait feu avec sa gigantesque arme pour défendre Piltover et repousser les ennemis."
   }, {
     "title" : "Trundle",
     "date" : 2010,
-    "description" : "Troll des montagnes, Trundle utilise sa force brute et sa régénération pour dominer ses adversaires.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/48/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/48/splash-art",
+    "description" : "Troll des montagnes, Trundle utilise sa force brute et sa régénération pour dominer ses adversaires."
   }, {
     "title" : "Tryndamere",
     "date" : 2009,
-    "description" : "Barbare furieux, Tryndamere combat avec rage et détermination pour devenir le roi incontesté de la guerre.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/23/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/23/splash-art",
+    "description" : "Barbare furieux, Tryndamere combat avec rage et détermination pour devenir le roi incontesté de la guerre."
   }, {
     "title" : "Twisted Fate",
     "date" : 2009,
-    "description" : "Magicien du hasard, Twisted Fate manipule les cartes pour contrôler la chance et semer la confusion.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/4/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/4/splash-art",
+    "description" : "Magicien du hasard, Twisted Fate manipule les cartes pour contrôler la chance et semer la confusion."
   }, {
     "title" : "Twitch",
     "date" : 2009,
-    "description" : "Vermine toxique, Twitch attaque furtivement avec ses fléchettes empoisonnées et sème la panique.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/29/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/29/splash-art",
+    "description" : "Vermine toxique, Twitch attaque furtivement avec ses fléchettes empoisonnées et sème la panique."
   }, {
     "title" : "Udyr",
     "date" : 2009,
-    "description" : "Chamane sauvage, Udyr canalise les esprits animaux pour déchaîner la force brute au combat.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/77/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/77/splash-art",
+    "description" : "Chamane sauvage, Udyr canalise les esprits animaux pour déchaîner la force brute au combat."
   }, {
     "title" : "Urgot",
     "date" : 2010,
-    "description" : "Machine de guerre monstrueuse, Urgot écrase ses ennemis avec ses griffes mécaniques et sa cruauté implacable.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/6/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/6/splash-art",
+    "description" : "Machine de guerre monstrueuse, Urgot écrase ses ennemis avec ses griffes mécaniques et sa cruauté implacable."
   }, {
     "title" : "Varus",
     "date" : 2012,
-    "description" : "Archer vengeur, Varus tire des flèches empoisonnées pour punir ses ennemis et chercher justice.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/110/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/110/splash-art",
+    "description" : "Archer vengeur, Varus tire des flèches empoisonnées pour punir ses ennemis et chercher justice."
   }, {
     "title" : "Vayne",
     "date" : 2011,
-    "description" : "Chasseuse de monstres, Vayne traque et élimine les créatures obscures avec précision et ténacité.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/67/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/67/splash-art",
+    "description" : "Chasseuse de monstres, Vayne traque et élimine les créatures obscures avec précision et ténacité."
   }, {
     "title" : "Veigar",
     "date" : 2009,
-    "description" : "Petit mage noir, Veigar accumule une puissance magique dévastatrice malgré sa taille modeste.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/45/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/45/splash-art",
+    "description" : "Petit mage noir, Veigar accumule une puissance magique dévastatrice malgré sa taille modeste."
   }, {
     "title" : "Vel'Koz",
     "date" : 2014,
-    "description" : "Créature de la faille, Vel'Koz analyse et désintègre ses ennemis avec une technologie inconnue.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/161/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/161/splash-art",
+    "description" : "Créature de la faille, Vel'Koz analyse et désintègre ses ennemis avec une technologie inconnue."
   }, {
     "title" : "Vex",
     "date" : 2021,
-    "description" : "Yordle mélancolique, Vex maîtrise la magie des ombres pour semer le désespoir et contrôler le champ de bataille.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/711/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/711/splash-art",
+    "description" : "Yordle mélancolique, Vex maîtrise la magie des ombres pour semer le désespoir et contrôler le champ de bataille."
   }, {
     "title" : "Vi",
     "date" : 2012,
-    "description" : "Ancienne criminelle, Vi utilise ses gantelets hextech pour imposer la justice dans les rues de Piltover.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/254/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/254/splash-art",
+    "description" : "Ancienne criminelle, Vi utilise ses gantelets hextech pour imposer la justice dans les rues de Piltover."
   }, {
     "title" : "Viego",
     "date" : 2021,
-    "description" : "Roi déchu, Viego cherche à ressusciter son amour perdu à travers la destruction et la manipulation.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/234/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/234/splash-art",
+    "description" : "Roi déchu, Viego cherche à ressusciter son amour perdu à travers la destruction et la manipulation."
   }, {
     "title" : "Viktor",
     "date" : 2011,
-    "description" : "Inventeur visionnaire, Viktor améliore son corps avec des augmentations technologiques pour atteindre la perfection.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/112/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/112/splash-art",
+    "description" : "Inventeur visionnaire, Viktor améliore son corps avec des augmentations technologiques pour atteindre la perfection."
   }, {
     "title" : "Vladimir",
     "date" : 2009,
-    "description" : "Nécromancien du sang, Vladimir manipule ce fluide vital pour infliger des dégâts et soigner ses alliés.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/8/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/8/splash-art",
+    "description" : "Nécromancien du sang, Vladimir manipule ce fluide vital pour infliger des dégâts et soigner ses alliés."
   }, {
     "title" : "Volibear",
     "date" : 2011,
-    "description" : "Esprit de la tempête, Volibear déchaîne la fureur du tonnerre pour écraser ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/106/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/106/splash-art",
+    "description" : "Esprit de la tempête, Volibear déchaîne la fureur du tonnerre pour écraser ses ennemis."
   }, {
     "title" : "Warwick",
     "date" : 2009,
-    "description" : "Chasseur monstrueux, Warwick traque ses proies avec une soif insatiable de sang et une force bestiale.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/19/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/19/splash-art",
+    "description" : "Chasseur monstrueux, Warwick traque ses proies avec une soif insatiable de sang et une force bestiale."
   }, {
     "title" : "Wukong",
     "date" : 2009,
-    "description" : "Guerrier singe, Wukong utilise sa ruse et son bâton magique pour vaincre ses adversaires avec agilité.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/62/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/62/splash-art",
+    "description" : "Guerrier singe, Wukong utilise sa ruse et son bâton magique pour vaincre ses adversaires avec agilité."
   }, {
     "title" : "Xayah",
     "date" : 2017,
-    "description" : "Rebelle farouche, Xayah manie ses plumes tranchantes pour protéger ses idéaux et ses proches.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/498/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/498/splash-art",
+    "description" : "Rebelle farouche, Xayah manie ses plumes tranchantes pour protéger ses idéaux et ses proches."
   }, {
     "title" : "Xerath",
     "date" : 2009,
-    "description" : "Mage ascendant, Xerath libère une énergie pure et destructrice depuis son corps d'arcane concentré.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/101/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/101/splash-art",
+    "description" : "Mage ascendant, Xerath libère une énergie pure et destructrice depuis son corps d'arcane concentré."
   }, {
     "title" : "Xin Zhao",
     "date" : 2009,
-    "description" : "Lancier courageux, Xin Zhao combat avec honneur et dévouement pour défendre Demacia.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/5/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/5/splash-art",
+    "description" : "Lancier courageux, Xin Zhao combat avec honneur et dévouement pour défendre Demacia."
   }, {
     "title" : "Yasuo",
     "date" : 2013,
-    "description" : "Samouraï errant, Yasuo manie le vent et le sabre avec une maîtrise légendaire pour traquer la justice.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/157/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/157/splash-art",
+    "description" : "Samouraï errant, Yasuo manie le vent et le sabre avec une maîtrise légendaire pour traquer la justice."
   }, {
     "title" : "Yone",
     "date" : 2020,
-    "description" : "Épéiste hanté, Yone combat les démons intérieurs tout en maîtrisant la lame spirituelle.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/777/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/777/splash-art",
+    "description" : "Épéiste hanté, Yone combat les démons intérieurs tout en maîtrisant la lame spirituelle."
   }, {
     "title" : "Yorick",
     "date" : 2011,
-    "description" : "Gardien des morts, Yorick invoque les âmes perdues pour combattre à ses côtés dans la pénombre.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/83/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/83/splash-art",
+    "description" : "Gardien des morts, Yorick invoque les âmes perdues pour combattre à ses côtés dans la pénombre."
   }, {
     "title" : "Yuumi",
     "date" : 2019,
-    "description" : "Chat magique, Yuumi flotte avec son livre enchanté, apportant soutien et protection à ses alliés.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/350/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/350/splash-art",
+    "description" : "Chat magique, Yuumi flotte avec son livre enchanté, apportant soutien et protection à ses alliés."
   }, {
     "title" : "Zac",
     "date" : 2013,
-    "description" : "Créature d'élasticité, Zac absorbe les coups et rebondit pour submerger ses adversaires avec force et souplesse.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/154/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/154/splash-art",
+    "description" : "Créature d'élasticité, Zac absorbe les coups et rebondit pour submerger ses adversaires avec force et souplesse."
   }, {
     "title" : "Zed",
     "date" : 2012,
-    "description" : "Maître des ombres, Zed utilise la furtivité et les techniques interdites pour éliminer ses cibles avec précision.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/238/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/238/splash-art",
+    "description" : "Maître des ombres, Zed utilise la furtivité et les techniques interdites pour éliminer ses cibles avec précision."
   }, {
     "title" : "Zeri",
     "date" : 2022,
-    "description" : "Jeune tireuse électrique de Zaun, Zeri canalise sa magie intérieure à travers un fusil high-tech. Vive et énergique, elle lutte pour protéger les siens.",
-    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/316a7a9cb13ca9f24238b10722bcdf0e134dabab-1920x1080.jpg"
+    "imageUrl" : "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/316a7a9cb13ca9f24238b10722bcdf0e134dabab-1920x1080.jpg",
+    "description" : "Jeune tireuse électrique de Zaun, Zeri canalise sa magie intérieure à travers un fusil high-tech. Vive et énergique, elle lutte pour protéger les siens."
   }, {
     "title" : "Ziggs",
     "date" : 2012,
-    "description" : "Yordle explosif, Ziggs sème la destruction avec ses bombes et son enthousiasme détonant.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/115/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/115/splash-art",
+    "description" : "Yordle explosif, Ziggs sème la destruction avec ses bombes et son enthousiasme détonant."
   }, {
     "title" : "Zilean",
     "date" : 2009,
-    "description" : "Maître du temps, Zilean manipule les heures pour changer le cours des batailles et sauver ses alliés.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/26/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/26/splash-art",
+    "description" : "Maître du temps, Zilean manipule les heures pour changer le cours des batailles et sauver ses alliés."
   }, {
     "title" : "Zoe",
     "date" : 2017,
-    "description" : "Esprit farceur, Zoe manipule la magie cosmique pour semer le chaos avec un sourire malicieux.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/142/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/142/splash-art",
+    "description" : "Esprit farceur, Zoe manipule la magie cosmique pour semer le chaos avec un sourire malicieux."
   }, {
     "title" : "Zyra",
     "date" : 2012,
-    "description" : "Déesse de la nature, Zyra contrôle les plantes venimeuses pour piéger et dévorer ses ennemis.",
-    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/143/splash-art"
+    "imageUrl" : "https://cdn.communitydragon.org/latest/champion/143/splash-art",
+    "description" : "Déesse de la nature, Zyra contrôle les plantes venimeuses pour piéger et dévorer ses ennemis."
   } ]
-}, {
-  "title" : "",
-  "imageUrl" : "",
-  "cards" : [ ]
 } ]

@@ -2,12 +2,12 @@ package app.controller.page;
 
 import java.io.IOException;
 
-import app.Main;
 import app.controller.card.ControllerCarte;
 import app.controller.modal.ControllerModalSupprimer;
 import app.model.Card;
 import app.model.Deck;
 import app.util.PageManager;
+import app.util.SingletonRegistry;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -16,7 +16,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 
 public class ControllerPageCreationCarte {
-	private static final PageManager P_M = PageManager.getInstance();
+	private static final PageManager P_M = SingletonRegistry.get(PageManager.class, PageManager::new);
 
 	@FXML private TextField tfCardName;
     @FXML private TextField tfCardDate;
@@ -24,64 +24,81 @@ public class ControllerPageCreationCarte {
     @FXML private TextField tfCardImage;
     @FXML private StackPane placeCard;
     
-    private ControllerCarte controller;
+	private final Deck deck;
+    private final Card card;
+
+    private ControllerCarte previewController;
 	
-    private static Card card;
-	public static void setCard(Card card) { ControllerPageCreationCarte.card = card; }
-	private static Deck deck;
-	public static void setDeck(Deck deck) { ControllerPageCreationCarte.deck = deck; }
+    public ControllerPageCreationCarte(Deck deck, Card card) {
+        this.deck = deck;
+        this.card = card;
+    }
 
 	@FXML
-	public void initialize() throws IOException {
-		tfCardName.setText(card.title);
-		tfCardDate.setText(Integer.toString(card.date));
-		tfCardDescription.setText(card.description);
-		tfCardImage.setText(card.imageUrl);
+	public void initialize() {
+		this.tfCardName.setText(this.card.title);
+		this.tfCardDate.setText(Integer.toString(this.card.date));
+		this.tfCardDescription.setText(this.card.description);
+		this.tfCardImage.setText(this.card.imageUrl);
 
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/card/carte.fxml"));
-		Pane cardPane = loader.load();
-		cardPane.setScaleX(2.0);
-		cardPane.setScaleY(2.0);
-		controller = loader.getController();
-		controller.setCard(card);
-		controller.setDescriptionVisible(false);
-		placeCard.getChildren().add(cardPane);
+		try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/card/carte.fxml"));
+            this.previewController = new ControllerCarte(this.deck, this.card);
+            loader.setController(this.previewController);
+
+            Pane cardPane = loader.load();
+            cardPane.setScaleX(2.0);
+            cardPane.setScaleY(2.0);
+            placeCard.getChildren().setAll(cardPane);
+        } catch (IOException e) {
+            throw new RuntimeException("Impossible de charger l'aperçu de carte", e);
+        }
 		
-		tfCardName.textProperty().addListener((_, _, newValue) -> {
-		    card.title = newValue;
-		    try { controller.setCard(card);
-			} catch (IOException e) {}
-		});
-		tfCardDate.textProperty().addListener((_, _, newValue) -> {
-		    card.date = Integer.parseInt(newValue);
-		    try { controller.setCard(card);
-			} catch (IOException e) {}
-		});
-		tfCardDescription.textProperty().addListener((_, _, newValue) -> {
-		    card.description = newValue;
-		    try { controller.setCard(card);
-			} catch (IOException e) {}
-		});
-		tfCardImage.textProperty().addListener((_, _, newValue) -> {
-		    card.imageUrl = newValue;
-		    try { controller.setCard(card);
-			} catch (IOException e) {}
-		});
+		this.tfCardName.textProperty().addListener((_, _, newVal) -> {
+            this.card.title = newVal;
+            this.previewController.refresh();
+        });
+
+        this.tfCardDate.textProperty().addListener((_, _, newVal) -> {
+            this.card.date = this.parseIntSafe(newVal);
+            this.previewController.refresh();
+        });
+
+        this.tfCardDescription.textProperty().addListener((_, _, newVal) -> {
+            this.card.description = newVal;
+            this.previewController.refresh();
+        });
+
+        this.tfCardImage.textProperty().addListener((_, _, newVal) -> {
+            this.card.imageUrl = newVal;
+            this.previewController.refresh();
+        });
 	}
+
+	private int parseIntSafe(String value) {
+        try {
+            if (value == null || value.isBlank()) {
+                return 0;
+            }
+            return Integer.parseInt(value.trim());
+        } catch (NumberFormatException e) {
+            return 0;
+        }
+    }
 	
     @FXML
     void confirm(ActionEvent event) {
-		// card.loadCardPane(deck);
-    	P_M.switchPage("pageCreationDeck.fxml");
+		P_M.switchPage("pageCreationDeck.fxml", new ControllerPageCreationDeck(this.deck));
     }
 
     @FXML
     void delete(ActionEvent event) {
-		ControllerModalSupprimer.setDeck(deck);
-		ControllerModalSupprimer.setCard(card);
-		P_M.loadModalPage("supprimer.fxml", true);
-
-		P_M.switchPage("pageCreationDeck.fxml");
+        ControllerModalSupprimer cms = new ControllerModalSupprimer();
+        P_M.loadModalPage("supprimer.fxml", cms, true);
+        if(cms.getResult()) {
+            this.deck.cards.remove(this.card);
+            P_M.switchPage("pageCreationDeck.fxml", new ControllerPageCreationDeck(this.deck));
+        }
     }
 
 }

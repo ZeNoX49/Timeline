@@ -1,15 +1,16 @@
 package app.controller.page;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
-import app.Collection;
 import app.Main;
 import app.controller.modal.ControllerModalErreurParamNewGame;
+import app.controller.page.PlateauJeu.Time;
 import app.model.Deck;
-import app.util.GameManager;
-import javafx.collections.FXCollections;
+import app.model.Player;
+import app.util.PageManager;
+import app.util.SingletonRegistry;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -17,60 +18,51 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
 public class ControllerPageNouvellePartie {
-    private final static GameManager GAME_MANAGER = GameManager.getInstance();
+    private static final PageManager P_M = SingletonRegistry.get(PageManager.class, PageManager::new);
 
-    @FXML private Button buttonJ1;
-    @FXML private Button buttonJ2;
+    @FXML private Button btnJ1;
+    @FXML private Button btnJ2;
+    @FXML private TextField tfNomJ1;
+    @FXML private TextField tfNomJ2;
+    @FXML private ComboBox<String> cbDeck;
+    @FXML private ComboBox<String> cbTime;
+
+    private final Map<String, Deck> decks = new HashMap<>();
+    private int nbJoueur = 1;
     
-    @FXML private TextField txtFieldnomJ1;
-    @FXML private TextField txtFieldnomJ2;
-
-    @FXML private ComboBox<String> comboDecks;
-    @FXML private ComboBox<String> comboTime;
-
     @FXML
     public void initialize() {
-        gameManager.reset();
-
-    	/* ----- Decks ----- */
-        // chargement des decks dans le combobox
-        List<String> deckNames = new ArrayList<>();
-        for (Deck deck : Collection.getDecks()) {
-            deckNames.add(deck.getTitle());
+        for(Deck deck : Main.DECKS) {
+            this.decks.put(deck.title, deck);
+            this.cbDeck.getItems().add(deck.title);
         }
-        comboDecks.setItems(FXCollections.observableArrayList(deckNames));
-        
-        // Deck par défaut
-        comboDecks.setValue(Collection.getDecks().get(0).getTitle());
 
-        /* ----- Temps ----- */
-        // chargement des temps dans le combobox
-        comboTime.setItems(FXCollections.observableArrayList("15 sec", "30 sec", "45 sec", "60 sec", "Infini"));
-
-        // temps par défaut
-        comboTime.getSelectionModel().select("Infini");
+        for(Time time : Time.values()) {
+            this.cbTime.getItems().add(time.toString());
+        }
+        this.cbTime.getSelectionModel().select("Infini");
     }
 
     @FXML
     void on1Jclick(ActionEvent event) {
-        if(gameManager.getNbJoueur() != 1) {
-            activerBouton(buttonJ1, buttonJ2);
-            gameManager.setNbJoueur(1);
-            txtFieldnomJ2.setDisable(true);
+        if(this.nbJoueur != 1) {
+            this.activerBouton(this.btnJ1, this.btnJ2);
+            this.tfNomJ2.setDisable(true);
+            this.nbJoueur = 1;
         }
     }
 
     @FXML
     void on2Jclick(ActionEvent event) {
-        if(gameManager.getNbJoueur() != 2) {
-            activerBouton(buttonJ2, buttonJ1);
-            gameManager.setNbJoueur(2);
-            txtFieldnomJ2.setDisable(false);
+        if(this.nbJoueur != 2) {
+            this.activerBouton(this.btnJ2, this.btnJ1);
+            this.tfNomJ2.setDisable(false);
+            this.nbJoueur = 2;
         }
     }
 
     private void activerBouton(Button actif, Button inactif) {
-        // Nettoyer les styles d’abord
+        // Nettoyer les styles d'abord
         actif.getStyleClass().removeAll("button_active", "button_inactive");
         inactif.getStyleClass().removeAll("button_active", "button_inactive");
 
@@ -81,58 +73,38 @@ public class ControllerPageNouvellePartie {
 
     @FXML
     void onConfirmClick(ActionEvent event) {
-        ControllerModalErreurParamNewGame.resetError();
+        ControllerModalErreurParamNewGame cmepng = new ControllerModalErreurParamNewGame();
 
-        // Nom du J1
-        String nomJ1 = txtFieldnomJ1.getText().trim();
-        if(nomJ1.isEmpty()) {
-            ControllerModalErreurParamNewGame.addError("Le joueur 1 n'a pas de nom");
-        } else {
-            gameManager.setNomJ1(nomJ1);
+        String nomJ1 = this.tfNomJ1.getText().trim();
+        if(nomJ1.isBlank()) {
+            cmepng.addError("Le joueur 1 n'a pas de nom");
         }
 
-        // Nom du J2
-        if(!txtFieldnomJ2.isDisable()) {
-            String nomJ2 = txtFieldnomJ2.getText().trim();
-            if(nomJ2.isEmpty()) {
-                ControllerModalErreurParamNewGame.addError("Le joueur 2 n'a pas de nom");
-            } else {
-                gameManager.setNomJ2(nomJ2);
-            }
+        String nomJ2 = this.tfNomJ2.getText().trim();
+        if(this.nbJoueur == 2 && nomJ2.isBlank()) {
+            cmepng.addError("Le joueur 2 n'a pas de nom");
         }
 
-        // Action lors d'un changement de deck
-        String selectedDeck = comboDecks.getValue();
-        for(Deck deck : Collection.getDecks()) {
-            if(deck.getTitle().equals(selectedDeck)) {
-                gameManager.setDeck(deck);
-                break;
-            }
-        }
+        // on duplique le deck pour pas modifier le deck originel
+        Deck selectedDeck = new Deck(this.decks.get(this.cbDeck.getValue()));
+        Time selectedTime = Time.toEnum(this.cbTime.getValue());
 
-        // Action lors d'un changement de deck
-        String selectedTime = comboTime.getValue();
-        boolean timedMode = !selectedTime.equals("Infini");
-        gameManager.setTempsLimite(timedMode ? Integer.valueOf(selectedTime) : null);
-
-        // Lancement de la partie
-        if(ControllerModalErreurParamNewGame.areThereError()) {
-            Main.loadModalPage("erreurParamNewGame.fxml");
+        if (cmepng.areThereError()) {
+            P_M.loadModalPage("erreurParamNewGame.fxml", cmepng, false);
         }
         else {
-            // gameManager.setCurrentSaveName(null);
-            // gameManager.setCurrentGame(null);
-            Main.switchPage("pagePlateau"+gameManager.getNbJoueur()+"J.fxml");
-        	// if(gameManager.getNbJoueur() == 1) {
-	        //     Main.switchPage("pagePlateau1J.fxml");
-        	// } else {
-	        //     Main.switchPage("pagePlateau2J.fxml");
-        	// }
+        	if(this.nbJoueur == 1) {
+                ControllerPagePlateau1J cpp1j = new ControllerPagePlateau1J(new Player(nomJ1), selectedDeck, selectedTime);
+	            P_M.switchPage("pagePlateau1J.fxml", cpp1j);
+        	} else {
+                // ControllerPagePlateau1J cpp2j = new ControllerPagePlateau1J(new Player(nomJ1), new Player(nomJ2), selectedDeck, selectedTime);
+	            // P_M.switchPage("pagePlateau2J.fxml", cpp2j);
+        	}
         }
     }
 
     @FXML
     void onRetour(ActionEvent event) throws IOException {
-    	Main.switchPage("pageAccueil.fxml");
+        P_M.switchPage("pageAccueil.fxml", null);
     }
 }

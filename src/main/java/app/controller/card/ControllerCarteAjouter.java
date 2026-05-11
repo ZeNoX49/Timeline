@@ -28,8 +28,7 @@ public class ControllerCarteAjouter {
 			loader.setController(this);
 			return loader.load();
 		} catch (IOException e) {
-			e.printStackTrace();
-			return null;
+			throw new RuntimeException("Impossible de charger carteAjouter.fxml", e);
 		}
     }
 }
